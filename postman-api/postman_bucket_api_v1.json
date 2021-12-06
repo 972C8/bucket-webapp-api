@@ -279,7 +279,7 @@
           "response": []
         },
         {
-          "name": "Get all bucket items of avatar Copy",
+          "name": "Get all bucket items (of current avatar)",
           "id": "8bc76849-6f91-41a5-b26d-cf779c42ef17",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -525,7 +525,7 @@
   ],
   "variable": [
     {
-      "id": "e041373d-f026-4d67-9dbf-392db84c5c42",
+      "id": "bc29f7b4-cabe-405e-bdf7-dbd3419cd224",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
