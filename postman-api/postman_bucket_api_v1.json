@@ -414,6 +414,36 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "Get bucket by id Copy",
+          "id": "422d8d17-cc1c-4c26-867a-452b0c8da7c7",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/buckets/:bucket-id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "buckets",
+                ":bucket-id"
+              ],
+              "variable": [
+                {
+                  "id": "7b517ab0-72ad-41e7-ac5c-6949435c0a1e",
+                  "key": "bucket-id",
+                  "value": "2"
+                }
+              ]
+            }
+          },
+          "response": []
         }
       ],
       "id": "86bc0b43-07d2-42bc-8e6b-e53f4f4718d5"
@@ -510,7 +540,7 @@
   ],
   "variable": [
     {
-      "id": "5a954554-b256-4569-baae-5ad11ea6ecbe",
+      "id": "079db935-0851-4fec-bd1b-4be7ed403a0e",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
