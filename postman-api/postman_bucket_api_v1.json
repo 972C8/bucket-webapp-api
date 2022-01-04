@@ -448,7 +448,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Get Image",
           "id": "5e1a7f70-b97b-4b55-939d-3945948bfe2d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -555,7 +555,7 @@
   ],
   "variable": [
     {
-      "id": "458c623c-dc43-441a-96f6-64b0fbb9279c",
+      "id": "fa33cff6-1406-4b52-bcfd-2f5babae1614",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
