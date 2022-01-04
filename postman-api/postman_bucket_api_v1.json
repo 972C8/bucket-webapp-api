@@ -456,7 +456,23 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": null
+            "url": {
+              "raw": "{{baseUrl}}/api/images/:image-id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "images",
+                ":image-id"
+              ],
+              "variable": [
+                {
+                  "key": "image-id",
+                  "value": "2"
+                }
+              ]
+            }
           },
           "response": []
         }
@@ -555,7 +571,7 @@
   ],
   "variable": [
     {
-      "id": "fa33cff6-1406-4b52-bcfd-2f5babae1614",
+      "id": "8c6962e6-e083-405b-85d2-b0679e1a3886",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
