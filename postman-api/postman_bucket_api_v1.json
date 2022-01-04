@@ -435,7 +435,7 @@
       "name": "images",
       "item": [
         {
-          "name": "New Request",
+          "name": "Upload Image",
           "id": "da3b3808-edae-48f4-b1eb-58085aa42953",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -542,7 +542,7 @@
   ],
   "variable": [
     {
-      "id": "5f6c55b5-6d40-470f-a5fa-74c8906bcc94",
+      "id": "6ce36017-1362-4748-8ed9-6c16955d9aa9",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
