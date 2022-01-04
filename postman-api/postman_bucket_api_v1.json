@@ -479,7 +479,7 @@
       "id": "662b5fd3-765e-4b4d-bfc0-dcb492830ca4"
     },
     {
-      "name": "New Folder",
+      "name": "images",
       "item": [],
       "id": "52c845d2-7182-4707-ae24-d9e8b38e2ecc"
     },
@@ -528,7 +528,7 @@
   ],
   "variable": [
     {
-      "id": "974a6393-fd57-48a2-8f56-d02fd8a46ecc",
+      "id": "40b8f0e1-ef85-47f6-8a10-d3840d6844c0",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
