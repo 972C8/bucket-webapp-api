@@ -433,7 +433,21 @@
     },
     {
       "name": "images",
-      "item": [],
+      "item": [
+        {
+          "name": "New Request",
+          "id": "da3b3808-edae-48f4-b1eb-58085aa42953",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
+        }
+      ],
       "id": "52c845d2-7182-4707-ae24-d9e8b38e2ecc"
     },
     {
@@ -528,7 +542,7 @@
   ],
   "variable": [
     {
-      "id": "46f709f1-905d-4336-818d-dca81a4ddafa",
+      "id": "78e5d670-cb23-4264-9f11-142bd22b7d69",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
