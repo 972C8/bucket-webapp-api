@@ -441,9 +441,19 @@
             "disableBodyPruning": true
           },
           "request": {
-            "method": "GET",
+            "method": "POST",
             "header": [],
-            "url": null
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "image",
+                  "type": "file",
+                  "src": "/C:/Users/tibor/Pictures/sample.png"
+                }
+              ]
+            },
+            "url": "{{baseUrl}}/api/uploadImage"
           },
           "response": []
         },
@@ -571,7 +581,7 @@
   ],
   "variable": [
     {
-      "id": "3c13f584-21ef-44e5-b998-69902133a95d",
+      "id": "51a70b31-8fe2-4559-9231-967133703fca",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
