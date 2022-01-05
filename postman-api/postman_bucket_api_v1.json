@@ -573,7 +573,7 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": "{{baseUrl}}/api/buckets"
+            "url": "{{baseUrl}}/api/labels"
           },
           "response": []
         }
@@ -730,7 +730,7 @@
   ],
   "variable": [
     {
-      "id": "9a9aeadd-66e1-49bb-ab0a-4f3102287d73",
+      "id": "4d53c7af-05b6-447b-8b3d-a9542729dcda",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
