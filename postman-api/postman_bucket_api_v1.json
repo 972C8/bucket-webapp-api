@@ -498,7 +498,7 @@
           "response": []
         },
         {
-          "name": "Edit bucket",
+          "name": "Edit label",
           "id": "dbb82d49-8d8d-43a1-ba5c-1c4c7f2e9318",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -689,7 +689,7 @@
   ],
   "variable": [
     {
-      "id": "5b001ba7-0786-49d0-a886-a98432d03fda",
+      "id": "9c277ff4-fd1e-4a73-a3c3-0c8ad2a1b90a",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
