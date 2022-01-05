@@ -456,14 +456,14 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\"\r\n}",
+              "raw": "{\r\n    \"name\": \"Hiking\",\r\n    \"color\": \"#FFFFF\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
                 }
               }
             },
-            "url": "{{baseUrl}}/api/buckets"
+            "url": "{{baseUrl}}/api/labels"
           },
           "response": []
         }
@@ -620,7 +620,7 @@
   ],
   "variable": [
     {
-      "id": "8f2a8aad-9daa-4014-8fe9-23d8060e7eb1",
+      "id": "47513f90-90e4-48b4-b9b9-e3007b9c7c81",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
