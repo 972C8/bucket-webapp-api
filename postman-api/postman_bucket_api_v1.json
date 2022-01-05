@@ -534,6 +534,36 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "Delete bucket",
+          "id": "cbc294b6-8e5e-41a9-af0b-7af1223baff2",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/buckets/:bucket-id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "buckets",
+                ":bucket-id"
+              ],
+              "variable": [
+                {
+                  "id": "30c6caee-a03f-40c1-87c9-04a7392bbfec",
+                  "key": "bucket-id",
+                  "value": "2"
+                }
+              ]
+            }
+          },
+          "response": []
         }
       ],
       "id": "d94ae066-a000-4b06-8834-a7c94ec68192"
@@ -688,7 +718,7 @@
   ],
   "variable": [
     {
-      "id": "bfc9021a-f7be-4fb5-9bb4-ed9e261023d7",
+      "id": "b01552fc-3d38-46ed-a744-37d3c3e19efa",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
