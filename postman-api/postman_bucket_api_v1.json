@@ -468,7 +468,7 @@
           "response": []
         },
         {
-          "name": "Get bucket by id",
+          "name": "Get label by id",
           "id": "44ede9af-6448-4ada-9985-47326467c30d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -650,7 +650,7 @@
   ],
   "variable": [
     {
-      "id": "139282f3-9656-4666-8d0f-fbdbeac5836e",
+      "id": "a5963cdf-6b7a-4a2b-aa1e-c3e1df2a3fdc",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
