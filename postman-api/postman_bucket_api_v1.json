@@ -565,7 +565,7 @@
           "response": []
         },
         {
-          "name": "Get buckets (of current avatar)",
+          "name": "Get labels (of current avatar)",
           "id": "f9bd3c9a-4239-4acc-ab8d-cf4a19c939d6",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -730,7 +730,7 @@
   ],
   "variable": [
     {
-      "id": "36e43e48-2cf1-4b0f-801f-c40926c5f065",
+      "id": "9a9aeadd-66e1-49bb-ab0a-4f3102287d73",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
