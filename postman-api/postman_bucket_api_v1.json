@@ -445,7 +445,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Hiking\",\r\n    \"color\": \"#FFFFF\",\r\n    \"bucketItem\": {\r\n        \"id\": 4,\r\n        \"title\": \"new bucket item\",\r\n        \"description\": \"great description of the item\",\r\n        \"created\": \"2022-01-05T18:35:44.624725700Z\",\r\n        \"dateToAccomplish\": null,\r\n        \"image\": null,\r\n        \"labels\": null\r\n    }\r\n}",
+              "raw": "{\r\n    \"name\": \"Hiking\",\r\n    \"color\": \"#FFFFF\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -718,7 +718,7 @@
   ],
   "variable": [
     {
-      "id": "5997d5ca-a987-4907-9fc4-1a3af24ac4e0",
+      "id": "1c613136-928c-4213-ba44-e3e2544f6724",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
