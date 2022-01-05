@@ -331,28 +331,6 @@
           "response": []
         },
         {
-          "name": "Create bucket Copy",
-          "id": "c9376481-01b0-45a4-8744-9b8baa812ccc",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\"\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": "{{baseUrl}}/api/buckets"
-          },
-          "response": []
-        },
-        {
           "name": "Get bucket by id",
           "id": "325e497f-3a49-4812-a2eb-b98e4ed071f1",
           "protocolProfileBehavior": {
@@ -467,6 +445,28 @@
     {
       "name": "labels",
       "item": [
+        {
+          "name": "Create bucket Copy",
+          "id": "c9376481-01b0-45a4-8744-9b8baa812ccc",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "{{baseUrl}}/api/buckets"
+          },
+          "response": []
+        },
         {
           "name": "Create label",
           "id": "ceb9c487-8933-4fd1-b54a-26092dbcd569",
@@ -633,7 +633,7 @@
   ],
   "variable": [
     {
-      "id": "929071b6-dc0f-4db3-8085-075507d2c898",
+      "id": "7727bea5-758b-43af-97e5-db03418c7637",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
