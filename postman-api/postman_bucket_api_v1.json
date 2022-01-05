@@ -443,7 +443,7 @@
       "id": "86bc0b43-07d2-42bc-8e6b-e53f4f4718d5"
     },
     {
-      "name": "images",
+      "name": "images (draft)",
       "item": [
         {
           "name": "Upload Image",
@@ -592,7 +592,7 @@
   ],
   "variable": [
     {
-      "id": "b20ec206-acb7-4d57-b1e0-aac6b8b08673",
+      "id": "dfa78a3d-dc8f-4a3a-a771-f9fe06c68820",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
