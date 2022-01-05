@@ -496,6 +496,45 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "Edit bucket",
+          "id": "dbb82d49-8d8d-43a1-ba5c-1c4c7f2e9318",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Category 1 NEW\",\r\n    \"color\": \"#FFFFF NEW\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/buckets/:bucket-id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "buckets",
+                ":bucket-id"
+              ],
+              "variable": [
+                {
+                  "id": "66a5116d-9719-4fde-9d37-b245b35d35ef",
+                  "key": "bucket-id",
+                  "value": "2"
+                }
+              ]
+            }
+          },
+          "response": []
         }
       ],
       "id": "d94ae066-a000-4b06-8834-a7c94ec68192"
@@ -650,7 +689,7 @@
   ],
   "variable": [
     {
-      "id": "a5963cdf-6b7a-4a2b-aa1e-c3e1df2a3fdc",
+      "id": "093c84ba-0f24-472e-8ca8-6be3a3d73d5e",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
