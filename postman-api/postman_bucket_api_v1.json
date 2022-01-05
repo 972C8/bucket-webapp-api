@@ -545,20 +545,19 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "{{baseUrl}}/api/buckets/:bucket-id",
+              "raw": "{{baseUrl}}/api/labels/:label-id",
               "host": [
                 "{{baseUrl}}"
               ],
               "path": [
                 "api",
-                "buckets",
-                ":bucket-id"
+                "labels",
+                ":label-id"
               ],
               "variable": [
                 {
-                  "id": "30c6caee-a03f-40c1-87c9-04a7392bbfec",
-                  "key": "bucket-id",
-                  "value": "2"
+                  "key": "label-id",
+                  "value": null
                 }
               ]
             }
@@ -718,7 +717,7 @@
   ],
   "variable": [
     {
-      "id": "bf69d2a0-2b29-4a6d-91e0-80dede3005f8",
+      "id": "7366c562-14fc-48ef-b280-c7242c500d5d",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
