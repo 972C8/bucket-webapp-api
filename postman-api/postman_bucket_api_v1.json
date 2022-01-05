@@ -504,7 +504,7 @@
             "disableBodyPruning": true
           },
           "request": {
-            "method": "PUT",
+            "method": "PATCH",
             "header": [],
             "body": {
               "mode": "raw",
@@ -528,7 +528,7 @@
               "variable": [
                 {
                   "key": "label-id",
-                  "value": "2"
+                  "value": "5"
                 }
               ]
             }
@@ -730,7 +730,7 @@
   ],
   "variable": [
     {
-      "id": "4d53c7af-05b6-447b-8b3d-a9542729dcda",
+      "id": "368ed0b4-17d8-4e01-86bf-8e96bab1e4e4",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
