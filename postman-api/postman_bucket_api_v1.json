@@ -443,6 +443,11 @@
       "id": "86bc0b43-07d2-42bc-8e6b-e53f4f4718d5"
     },
     {
+      "name": "labels",
+      "item": [],
+      "id": "d94ae066-a000-4b06-8834-a7c94ec68192"
+    },
+    {
       "name": "images (draft)",
       "item": [
         {
@@ -548,11 +553,6 @@
       "id": "662b5fd3-765e-4b4d-bfc0-dcb492830ca4"
     },
     {
-      "name": "labels",
-      "item": [],
-      "id": "d94ae066-a000-4b06-8834-a7c94ec68192"
-    },
-    {
       "name": "Test connection",
       "id": "1b36492c-5bb5-4d91-b3d5-e55395c03439",
       "protocolProfileBehavior": {
@@ -597,7 +597,7 @@
   ],
   "variable": [
     {
-      "id": "4693c90d-52f0-4819-953b-4a447f960a6f",
+      "id": "b0749f5f-3ded-4552-b329-7fb97fcd7404",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
