@@ -536,7 +536,7 @@
           "response": []
         },
         {
-          "name": "Delete bucket",
+          "name": "Delete label",
           "id": "cbc294b6-8e5e-41a9-af0b-7af1223baff2",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -718,7 +718,7 @@
   ],
   "variable": [
     {
-      "id": "fad5be3b-954d-4702-b6d6-b3290ef3fb76",
+      "id": "bf69d2a0-2b29-4a6d-91e0-80dede3005f8",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
