@@ -466,20 +466,19 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseUrl}}/api/buckets/:bucket-id",
+              "raw": "{{baseUrl}}/api/labels/:label-id",
               "host": [
                 "{{baseUrl}}"
               ],
               "path": [
                 "api",
-                "buckets",
-                ":bucket-id"
+                "labels",
+                ":label-id"
               ],
               "variable": [
                 {
-                  "id": "5828af49-0814-4a64-bf0d-e5c21da51500",
-                  "key": "bucket-id",
-                  "value": "2"
+                  "key": "label-id",
+                  "value": "3"
                 }
               ]
             }
@@ -719,7 +718,7 @@
   ],
   "variable": [
     {
-      "id": "c2855b4f-3afc-47f9-b06e-23820cd8b352",
+      "id": "5997d5ca-a987-4907-9fc4-1a3af24ac4e0",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
