@@ -444,7 +444,21 @@
     },
     {
       "name": "labels",
-      "item": [],
+      "item": [
+        {
+          "name": "New Request",
+          "id": "ceb9c487-8933-4fd1-b54a-26092dbcd569",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
+        }
+      ],
       "id": "d94ae066-a000-4b06-8834-a7c94ec68192"
     },
     {
@@ -597,7 +611,7 @@
   ],
   "variable": [
     {
-      "id": "b0749f5f-3ded-4552-b329-7fb97fcd7404",
+      "id": "3f7b2160-c4fe-498f-9fb5-74a90092a39a",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
