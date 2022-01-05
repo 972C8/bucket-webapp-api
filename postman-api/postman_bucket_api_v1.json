@@ -438,6 +438,28 @@
             "url": "{{baseUrl}}/api/buckets"
           },
           "response": []
+        },
+        {
+          "name": "Create bucket Copy",
+          "id": "c9376481-01b0-45a4-8744-9b8baa812ccc",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "{{baseUrl}}/api/buckets"
+          },
+          "response": []
         }
       ],
       "id": "86bc0b43-07d2-42bc-8e6b-e53f4f4718d5"
@@ -611,7 +633,7 @@
   ],
   "variable": [
     {
-      "id": "c8b8f406-5e33-4cfc-ae70-2b2713ab88e7",
+      "id": "1c9189c5-aa9e-48b6-81af-0d696fc63cdf",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
