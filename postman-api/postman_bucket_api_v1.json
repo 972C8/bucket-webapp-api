@@ -446,7 +446,7 @@
       "name": "labels",
       "item": [
         {
-          "name": "New Request",
+          "name": "Create label",
           "id": "ceb9c487-8933-4fd1-b54a-26092dbcd569",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -611,7 +611,7 @@
   ],
   "variable": [
     {
-      "id": "8f375b53-9156-40eb-a9a7-c0ce44bcd2aa",
+      "id": "c8b8f406-5e33-4cfc-ae70-2b2713ab88e7",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
