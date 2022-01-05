@@ -563,6 +563,19 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "Get buckets (of current avatar)",
+          "id": "f9bd3c9a-4239-4acc-ab8d-cf4a19c939d6",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/api/buckets"
+          },
+          "response": []
         }
       ],
       "id": "d94ae066-a000-4b06-8834-a7c94ec68192"
@@ -717,7 +730,7 @@
   ],
   "variable": [
     {
-      "id": "35a70808-a6f5-4c99-9482-f472b6eabf10",
+      "id": "25f967e9-b378-4734-b764-a9116ec0b0d1",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
