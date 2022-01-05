@@ -446,7 +446,7 @@
       "name": "labels",
       "item": [
         {
-          "name": "Create bucket Copy",
+          "name": "Create label",
           "id": "c9376481-01b0-45a4-8744-9b8baa812ccc",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -620,7 +620,7 @@
   ],
   "variable": [
     {
-      "id": "8259d392-3029-406d-acff-a25633aaa2f3",
+      "id": "8f2a8aad-9daa-4014-8fe9-23d8060e7eb1",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
