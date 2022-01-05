@@ -142,24 +142,13 @@
             "method": "POST",
             "header": [],
             "body": {
-              "mode": "formdata",
-              "formdata": [
-                {
-                  "key": "title",
-                  "value": "Hike up a mountain",
-                  "type": "text"
-                },
-                {
-                  "key": "description",
-                  "value": "Do it now",
-                  "type": "text"
-                },
-                {
-                  "key": "image",
-                  "type": "file",
-                  "src": "/C:/Users/tibor/Pictures/sample.png"
+              "mode": "raw",
+              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
                 }
-              ]
+              }
             },
             "url": "{{baseUrl}}/api/bucket-items"
           },
@@ -730,7 +719,7 @@
   ],
   "variable": [
     {
-      "id": "368ed0b4-17d8-4e01-86bf-8e96bab1e4e4",
+      "id": "f8706de2-d96c-4b90-bd3a-044c954d3f62",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
