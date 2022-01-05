@@ -508,7 +508,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Category 1 NEW\",\r\n    \"color\": \"#FFFFF NEW\"\r\n}",
+              "raw": "{\r\n    \"name\": \"Label 1 NEW\",\r\n    \"color\": \"#FFFFF NEW\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -688,7 +688,7 @@
   ],
   "variable": [
     {
-      "id": "0344d329-7e6c-4d91-a9be-8080c22d5936",
+      "id": "bfc9021a-f7be-4fb5-9bb4-ed9e261023d7",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
