@@ -308,7 +308,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\",\r\n    \"avatar\": {\r\n        \"id\": 5\r\n    }\r\n}",
+              "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\",\r\n    \"avatar\": {\r\n        \"id\": 1\r\n    }\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -794,7 +794,7 @@
   ],
   "variable": [
     {
-      "id": "ed44d646-86c5-427b-9064-75d439f9f363",
+      "id": "85d2a235-201b-4d95-9f76-3a3d38e539e1",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
