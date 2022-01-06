@@ -260,7 +260,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseUrl}}/api/bucket-items?avatar-id=1",
+              "raw": "{{baseUrl}}/api/bucket-items?avatar-id=15",
               "host": [
                 "{{baseUrl}}"
               ],
@@ -271,7 +271,7 @@
               "query": [
                 {
                   "key": "avatar-id",
-                  "value": "1"
+                  "value": "15"
                 }
               ]
             }
@@ -793,7 +793,7 @@
   ],
   "variable": [
     {
-      "id": "991bee45-4d46-47d8-9f75-e59a27211fd9",
+      "id": "22996f51-ef19-457b-9fb6-5e96fdf81d7a",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
