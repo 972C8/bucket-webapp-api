@@ -143,7 +143,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\",\r\n    \"avatar\": {\r\n        \"id\": 1\r\n    },\r\n    \"bucket\": {\r\n        \"id\": 0\r\n    }\r\n}",
+              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\",\r\n    \"avatar\": {\r\n        \"id\": 0\r\n    },\r\n    \"bucket\": {\r\n        \"id\": 0\r\n    }\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -176,7 +176,7 @@
               "variable": [
                 {
                   "key": "item-id",
-                  "value": "3"
+                  "value": "2"
                 }
               ]
             }
@@ -416,7 +416,7 @@
               "variable": [
                 {
                   "key": "bucket-id",
-                  "value": "4"
+                  "value": "3"
                 }
               ]
             }
@@ -671,9 +671,8 @@
                 },
                 {
                   "key": "bucketItem",
-                  "value": "2",
-                  "type": "default",
-                  "disabled": true
+                  "value": "5",
+                  "type": "default"
                 }
               ]
             },
@@ -805,7 +804,7 @@
   ],
   "variable": [
     {
-      "id": "91bc5ebb-89ea-4473-b22f-8e24d15125ac",
+      "id": "ffe3b237-637f-4158-aff8-6102659e920c",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
