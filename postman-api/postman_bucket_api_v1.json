@@ -143,7 +143,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\",\r\n    \"avatar\": {\r\n        \"id\": 0\r\n    },\r\n    \"bucket\": {\r\n        \"id\": 0\r\n    }\r\n}",
+              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\",\r\n    \"avatar\": {\r\n        \"id\": 1\r\n    },\r\n    \"bucket\": {\r\n        \"id\": 0\r\n    }\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -804,7 +804,7 @@
   ],
   "variable": [
     {
-      "id": "394b882a-b4a8-4efa-a615-efbe5c55946d",
+      "id": "1187b89c-53fb-4530-8d87-ba99ce841a2c",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
