@@ -223,7 +223,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"title\": \"Run a marathon 4\",\r\n    \"description\": \"Run the London marathon 2\",\r\n    \"dateToAccomplish\": \"tomorrow?\",\r\n    \"avatar\": {\r\n        \"id\": 1\r\n    }\r\n}",
+              "raw": "{\r\n    \"title\": \"Run a marathon 4\",\r\n    \"description\": \"Run the London marathon 2\",\r\n    \"dateToAccomplish\": \"tomorrow?\",\r\n    \"avatar\": {\r\n        \"id\": 1\r\n    },\r\n    \"bucket\": {\r\n        \"id\": 3\r\n    }\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -793,7 +793,7 @@
   ],
   "variable": [
     {
-      "id": "549f5dc0-5036-4927-ad25-e1d4c96e938c",
+      "id": "991bee45-4d46-47d8-9f75-e59a27211fd9",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
