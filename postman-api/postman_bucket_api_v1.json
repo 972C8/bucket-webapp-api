@@ -644,7 +644,7 @@
       "id": "d94ae066-a000-4b06-8834-a7c94ec68192"
     },
     {
-      "name": "images (draft)",
+      "name": "images",
       "item": [
         {
           "name": "Upload Image",
@@ -805,7 +805,7 @@
   ],
   "variable": [
     {
-      "id": "ace15212-228e-4d4b-acb3-5d6046392611",
+      "id": "296fc2f1-3934-40d9-a8a1-e34c1bbd722a",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
