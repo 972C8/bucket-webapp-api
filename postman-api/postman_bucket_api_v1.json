@@ -663,6 +663,16 @@
                   "key": "image",
                   "type": "file",
                   "src": "/C:/Users/tibor/Pictures/sample.png"
+                },
+                {
+                  "key": "avatar",
+                  "value": "4",
+                  "type": "default"
+                },
+                {
+                  "key": "bucketItem",
+                  "value": "2",
+                  "type": "default"
                 }
               ]
             },
@@ -794,7 +804,7 @@
   ],
   "variable": [
     {
-      "id": "85d2a235-201b-4d95-9f76-3a3d38e539e1",
+      "id": "351d31cc-9f45-42d2-bb72-4a42e1e57e72",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
