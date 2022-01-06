@@ -317,7 +317,82 @@
             },
             "url": "{{baseUrl}}/api/buckets"
           },
-          "response": []
+          "response": [
+            {
+              "id": "ef789059-d60b-4a69-90fa-c96bd63e9cd9",
+              "name": "Create bucket",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{baseUrl}}/api/buckets"
+              },
+              "status": "Created",
+              "code": 201,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Location",
+                  "value": "http://localhost:8080/api/buckets/3"
+                },
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "X-XSS-Protection",
+                  "value": "1; mode=block"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, no-store, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "key": "Expires",
+                  "value": "0"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Transfer-Encoding",
+                  "value": "chunked"
+                },
+                {
+                  "key": "Date",
+                  "value": "Wed, 05 Jan 2022 18:59:44 GMT"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=60"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"id\": 3,\n    \"name\": \"Category 1\",\n    \"color\": \"#FFFFF\",\n    \"icon\": null\n}"
+            }
+          ]
         },
         {
           "name": "Get bucket by id",
@@ -718,7 +793,7 @@
   ],
   "variable": [
     {
-      "id": "b8341496-eb15-4d3d-b32e-c25ce8246338",
+      "id": "b00a2b14-fe5f-42a5-8315-314ccc419113",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
