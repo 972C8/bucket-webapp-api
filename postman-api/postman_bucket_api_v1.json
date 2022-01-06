@@ -650,7 +650,8 @@
           "name": "Upload Image",
           "id": "da3b3808-edae-48f4-b1eb-58085aa42953",
           "protocolProfileBehavior": {
-            "disableBodyPruning": true
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {}
           },
           "request": {
             "method": "POST",
@@ -793,7 +794,7 @@
   ],
   "variable": [
     {
-      "id": "cd465eab-f952-4c25-ac09-5c6f116d7145",
+      "id": "ed44d646-86c5-427b-9064-75d439f9f363",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
