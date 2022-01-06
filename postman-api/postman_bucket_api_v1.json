@@ -666,12 +666,12 @@
                 },
                 {
                   "key": "avatar",
-                  "value": "4",
+                  "value": "1",
                   "type": "default"
                 },
                 {
                   "key": "bucketItem",
-                  "value": "2",
+                  "value": "4",
                   "type": "default"
                 }
               ]
@@ -702,7 +702,7 @@
               "variable": [
                 {
                   "key": "image-id",
-                  "value": "2"
+                  "value": "5"
                 }
               ]
             }
@@ -804,7 +804,7 @@
   ],
   "variable": [
     {
-      "id": "a53b9d58-547a-4333-89e4-bbd8bfbd7189",
+      "id": "9d1363e7-3637-455d-b719-8cbcbafe4a2e",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
