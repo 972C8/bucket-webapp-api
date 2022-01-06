@@ -143,7 +143,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\",\r\n    \"avatar\": {\r\n            \"id\": 1,\r\n            \"username\": \"user\",\r\n            \"email\": \"user@user.com\"\r\n    }\r\n}",
+              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -793,7 +793,7 @@
   ],
   "variable": [
     {
-      "id": "aee1ba35-e2d8-490f-9c5d-848d01143581",
+      "id": "41ab4dc3-9230-4cec-bf13-121f2e56c821",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
