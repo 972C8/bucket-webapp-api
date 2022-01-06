@@ -671,8 +671,9 @@
                 },
                 {
                   "key": "bucketItem",
-                  "value": "5",
-                  "type": "default"
+                  "value": "2",
+                  "type": "default",
+                  "disabled": true
                 }
               ]
             },
@@ -804,7 +805,7 @@
   ],
   "variable": [
     {
-      "id": "1187b89c-53fb-4530-8d87-ba99ce841a2c",
+      "id": "91bc5ebb-89ea-4473-b22f-8e24d15125ac",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
