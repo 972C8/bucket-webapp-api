@@ -52,7 +52,7 @@
               "variable": [
                 {
                   "key": "avatar-id",
-                  "value": "2"
+                  "value": "3"
                 }
               ]
             }
@@ -793,7 +793,7 @@
   ],
   "variable": [
     {
-      "id": "a9159608-afef-48eb-9dc8-2f8168488243",
+      "id": "aee1ba35-e2d8-490f-9c5d-848d01143581",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
