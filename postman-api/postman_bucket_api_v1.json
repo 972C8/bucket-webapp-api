@@ -720,9 +720,8 @@
               ],
               "variable": [
                 {
-                  "id": "e1c7a02c-6037-4e38-b1e1-d771cb24736e",
                   "key": "image-id",
-                  "value": "11"
+                  "value": "2"
                 }
               ]
             }
@@ -871,7 +870,7 @@
   ],
   "variable": [
     {
-      "id": "964c513e-799e-42f2-a1f6-1d518c06e0a0",
+      "id": "45af2dbb-e3bf-4259-9a2f-85b1f9706f64",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
