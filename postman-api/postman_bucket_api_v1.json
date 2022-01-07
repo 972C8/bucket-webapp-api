@@ -748,35 +748,6 @@
       "response": []
     },
     {
-      "name": "Get image by id",
-      "id": "5e1a7f70-b97b-4b55-939d-3945948bfe2d",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/images/:image-id",
-          "host": [
-            "{{baseUrl}}"
-          ],
-          "path": [
-            "api",
-            "images",
-            ":image-id"
-          ],
-          "variable": [
-            {
-              "key": "image-id",
-              "value": "11"
-            }
-          ]
-        }
-      },
-      "response": []
-    },
-    {
       "name": "Upload image",
       "id": "da3b3808-edae-48f4-b1eb-58085aa42953",
       "protocolProfileBehavior": {
@@ -843,7 +814,7 @@
   ],
   "variable": [
     {
-      "id": "7d65785e-0eb2-4ae5-9f58-47ff5c43b4c0",
+      "id": "ae0def88-853d-4a8e-bbe0-7120c3906ded",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
