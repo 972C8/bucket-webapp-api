@@ -671,6 +671,35 @@
           "response": []
         },
         {
+          "name": "Upload image for bucket item",
+          "id": "5314cf18-156f-48b7-9d7c-b55ca59a5d3f",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {}
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "image",
+                  "type": "file",
+                  "src": "/C:/Users/tibor/Pictures/sample.png"
+                },
+                {
+                  "key": "bucketItem",
+                  "value": "2",
+                  "type": "default"
+                }
+              ]
+            },
+            "url": "{{baseUrl}}/api/bucket-items/images"
+          },
+          "response": []
+        },
+        {
           "name": "Get profile picture by id",
           "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
           "protocolProfileBehavior": {
@@ -697,35 +726,6 @@
                 }
               ]
             }
-          },
-          "response": []
-        },
-        {
-          "name": "Upload image for bucket item",
-          "id": "5314cf18-156f-48b7-9d7c-b55ca59a5d3f",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true,
-            "disabledSystemHeaders": {}
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "formdata",
-              "formdata": [
-                {
-                  "key": "image",
-                  "type": "file",
-                  "src": "/C:/Users/tibor/Pictures/sample.png"
-                },
-                {
-                  "key": "bucketItem",
-                  "value": "2",
-                  "type": "default"
-                }
-              ]
-            },
-            "url": "{{baseUrl}}/api/bucket-items/images"
           },
           "response": []
         }
@@ -841,7 +841,7 @@
   ],
   "variable": [
     {
-      "id": "fbd005bb-eb8e-4cab-b58d-ba7bc3766a33",
+      "id": "f0a18c2c-cefe-4e13-bac1-5deb5473e8e7",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
