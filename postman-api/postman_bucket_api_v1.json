@@ -571,7 +571,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Label 1 NEW\",\r\n    \"color\": \"#FFFFF NEW\",\r\n    \"avatar\": {\r\n        \"id\": 1\r\n    }\r\n}",
+              "raw": "{\r\n    \"name\": \"Label 2 NEW\",\r\n    \"color\": \"#FFFFF NEW\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -870,7 +870,7 @@
   ],
   "variable": [
     {
-      "id": "1fb40d62-67bd-4670-a858-1005787d9425",
+      "id": "236b1292-3601-43a6-ae15-34660f0e712a",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
