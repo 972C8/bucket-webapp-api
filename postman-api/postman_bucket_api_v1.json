@@ -699,41 +699,6 @@
             }
           },
           "response": []
-        },
-        {
-          "name": "Upload image",
-          "id": "da3b3808-edae-48f4-b1eb-58085aa42953",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true,
-            "disabledSystemHeaders": {}
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "formdata",
-              "formdata": [
-                {
-                  "key": "image",
-                  "type": "file",
-                  "src": "/C:/Users/tibor/Pictures/sample.png"
-                },
-                {
-                  "key": "avatar",
-                  "value": "1",
-                  "type": "default"
-                },
-                {
-                  "key": "bucketItem",
-                  "value": "2",
-                  "type": "default",
-                  "disabled": true
-                }
-              ]
-            },
-            "url": "{{baseUrl}}/api/images"
-          },
-          "response": []
         }
       ],
       "id": "52c845d2-7182-4707-ae24-d9e8b38e2ecc"
@@ -748,6 +713,41 @@
         "method": "HEAD",
         "header": [],
         "url": "{{baseUrl}}"
+      },
+      "response": []
+    },
+    {
+      "name": "Upload image",
+      "id": "da3b3808-edae-48f4-b1eb-58085aa42953",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true,
+        "disabledSystemHeaders": {}
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "image",
+              "type": "file",
+              "src": "/C:/Users/tibor/Pictures/sample.png"
+            },
+            {
+              "key": "avatar",
+              "value": "1",
+              "type": "default"
+            },
+            {
+              "key": "bucketItem",
+              "value": "2",
+              "type": "default",
+              "disabled": true
+            }
+          ]
+        },
+        "url": "{{baseUrl}}/api/images"
       },
       "response": []
     },
@@ -812,7 +812,7 @@
   ],
   "variable": [
     {
-      "id": "f022abfd-c621-44e4-9406-461d94369ad3",
+      "id": "936bcfdf-970b-4dfe-919e-5771acfcc62d",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
