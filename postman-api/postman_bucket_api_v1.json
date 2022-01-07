@@ -19,7 +19,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"username\": \"user2\",\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
+              "raw": "{\r\n    \"name\": \"user2\",\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -296,7 +296,29 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": "{{baseUrl}}/api/bucket-items"
+            "url": {
+              "raw": "{{baseUrl}}/api/bucket-items",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "bucket-items"
+              ],
+              "query": [
+                {
+                  "key": "completed",
+                  "value": "true",
+                  "type": "default",
+                  "disabled": true
+                },
+                {
+                  "key": "bucketId",
+                  "value": "2",
+                  "disabled": true
+                }
+              ]
+            }
           },
           "response": []
         }
@@ -466,20 +488,20 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseUrl}}/api/images/:image-id",
+              "raw": "{{baseUrl}}/api/bucket-items/images/:bucket-item-id",
               "host": [
                 "{{baseUrl}}"
               ],
               "path": [
                 "api",
+                "bucket-items",
                 "images",
-                ":image-id"
+                ":bucket-item-id"
               ],
               "variable": [
                 {
-                  "id": "fb6d0324-6c75-4e3d-90ba-fd1b241ffc53",
-                  "key": "image-id",
-                  "value": "11"
+                  "key": "bucket-item-id",
+                  "value": "3"
                 }
               ]
             }
@@ -751,7 +773,7 @@
   ],
   "variable": [
     {
-      "id": "9dcaf500-cd13-45f8-aa43-3540ca67ce8f",
+      "id": "c9a61283-29c9-40bb-8d1d-08f41fa40169",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
