@@ -711,7 +711,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Upload profile picture",
           "id": "27a2ac1b-a28f-4a77-876c-0e5060cf046a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -771,7 +771,7 @@
   ],
   "variable": [
     {
-      "id": "f043bc8d-0380-4f9a-a1b4-c4fd74b1bea8",
+      "id": "a872b697-7f39-4c94-bbca-7939323b8380",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
