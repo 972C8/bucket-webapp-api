@@ -671,6 +671,36 @@
           "response": []
         },
         {
+          "name": "Get profile picture by id",
+          "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/images/:image-id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "images",
+                ":image-id"
+              ],
+              "variable": [
+                {
+                  "id": "e1c7a02c-6037-4e38-b1e1-d771cb24736e",
+                  "key": "image-id",
+                  "value": "11"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
           "name": "Upload image",
           "id": "da3b3808-edae-48f4-b1eb-58085aa42953",
           "protocolProfileBehavior": {
@@ -733,36 +763,6 @@
             }
           },
           "response": []
-        },
-        {
-          "name": "Get profile picture by id",
-          "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": "{{baseUrl}}/api/images/:image-id",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "images",
-                ":image-id"
-              ],
-              "variable": [
-                {
-                  "id": "e1c7a02c-6037-4e38-b1e1-d771cb24736e",
-                  "key": "image-id",
-                  "value": "11"
-                }
-              ]
-            }
-          },
-          "response": []
         }
       ],
       "id": "52c845d2-7182-4707-ae24-d9e8b38e2ecc"
@@ -812,7 +812,7 @@
   ],
   "variable": [
     {
-      "id": "8917b7ad-835b-4aa8-b7ed-8f4ea972865e",
+      "id": "23585c8a-5b75-4bdd-9c64-17897804aeb4",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
