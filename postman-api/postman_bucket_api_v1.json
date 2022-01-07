@@ -251,7 +251,20 @@
           "response": []
         },
         {
-          "name": "Get all bucket items of avatar",
+          "name": "Get all bucket items (of current avatar)",
+          "id": "8bc76849-6f91-41a5-b26d-cf779c42ef17",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/api/bucket-items"
+          },
+          "response": []
+        },
+        {
+          "name": "Get all bucket items of avatar (Deprecated?)",
           "id": "23baab9e-8ba7-4be3-8c11-f75eb25fcdd9",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -275,19 +288,6 @@
                 }
               ]
             }
-          },
-          "response": []
-        },
-        {
-          "name": "Get all bucket items (of current avatar)",
-          "id": "8bc76849-6f91-41a5-b26d-cf779c42ef17",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": "{{baseUrl}}/api/bucket-items"
           },
           "response": []
         }
@@ -849,7 +849,7 @@
   ],
   "variable": [
     {
-      "id": "0a938a39-1ca5-477a-af66-2163dd55f406",
+      "id": "0a279d62-e34b-495b-acfa-c3c8b65a4b66",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
