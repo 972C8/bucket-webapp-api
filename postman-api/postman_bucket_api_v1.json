@@ -728,38 +728,38 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "Get image by id",
+          "id": "5e1a7f70-b97b-4b55-939d-3945948bfe2d",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/images/:image-id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "images",
+                ":image-id"
+              ],
+              "variable": [
+                {
+                  "key": "image-id",
+                  "value": "11"
+                }
+              ]
+            }
+          },
+          "response": []
         }
       ],
       "id": "52c845d2-7182-4707-ae24-d9e8b38e2ecc"
-    },
-    {
-      "name": "Get image by id",
-      "id": "5e1a7f70-b97b-4b55-939d-3945948bfe2d",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/images/:image-id",
-          "host": [
-            "{{baseUrl}}"
-          ],
-          "path": [
-            "api",
-            "images",
-            ":image-id"
-          ],
-          "variable": [
-            {
-              "key": "image-id",
-              "value": "11"
-            }
-          ]
-        }
-      },
-      "response": []
     },
     {
       "name": "Test connection",
@@ -841,7 +841,7 @@
   ],
   "variable": [
     {
-      "id": "ad68ef24-223b-4762-b833-bb4e006451d8",
+      "id": "74f425d0-9845-42ff-ad75-9b6934f9f31f",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
