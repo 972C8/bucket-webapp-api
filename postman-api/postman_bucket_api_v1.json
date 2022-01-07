@@ -432,30 +432,6 @@
           ]
         },
         {
-          "name": "Upload new bucket item image",
-          "id": "5314cf18-156f-48b7-9d7c-b55ca59a5d3f",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true,
-            "disabledSystemHeaders": {}
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "formdata",
-              "formdata": [
-                {
-                  "key": "image",
-                  "type": "file",
-                  "src": "/C:/Users/tibor/Pictures/sample.png"
-                }
-              ]
-            },
-            "url": "{{baseUrl}}/api/bucket-items/images"
-          },
-          "response": []
-        },
-        {
           "name": "Get bucket by id",
           "id": "325e497f-3a49-4812-a2eb-b98e4ed071f1",
           "protocolProfileBehavior": {
@@ -561,6 +537,30 @@
             "method": "GET",
             "header": [],
             "url": "{{baseUrl}}/api/buckets"
+          },
+          "response": []
+        },
+        {
+          "name": "Upload new bucket item image",
+          "id": "5314cf18-156f-48b7-9d7c-b55ca59a5d3f",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {}
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "image",
+                  "type": "file",
+                  "src": "/C:/Users/tibor/Pictures/sample.png"
+                }
+              ]
+            },
+            "url": "{{baseUrl}}/api/bucket-items/images"
           },
           "response": []
         }
@@ -849,7 +849,7 @@
   ],
   "variable": [
     {
-      "id": "044adf74-c2b9-4c8e-9230-04a77232b32e",
+      "id": "7c72e370-00e9-4957-aa04-2b9c2ad9b70b",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
