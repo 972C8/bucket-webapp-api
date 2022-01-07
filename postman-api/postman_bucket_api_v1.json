@@ -485,7 +485,7 @@
           "response": []
         },
         {
-          "name": "Get image of bucket item by bucketItemId",
+          "name": "Get image of bucket item by bucket-item-id",
           "id": "8e44db3f-f8e9-4885-ae52-8bb893efd564",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -848,7 +848,7 @@
   ],
   "variable": [
     {
-      "id": "bb4cb4dc-9b96-4faa-9e06-477161f0b300",
+      "id": "956d1534-0ea8-4d44-aaaf-dc6a12531741",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
