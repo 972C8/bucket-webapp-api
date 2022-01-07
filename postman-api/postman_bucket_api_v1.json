@@ -251,7 +251,7 @@
               "variable": [
                 {
                   "key": "item-id",
-                  "value": "6"
+                  "value": "4"
                 }
               ]
             }
@@ -296,7 +296,29 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": "{{baseUrl}}/api/bucket-items"
+            "url": {
+              "raw": "{{baseUrl}}/api/bucket-items",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "bucket-items"
+              ],
+              "query": [
+                {
+                  "key": "completed",
+                  "value": "true",
+                  "type": "default",
+                  "disabled": true
+                },
+                {
+                  "key": "bucketId",
+                  "value": "2",
+                  "disabled": true
+                }
+              ]
+            }
           },
           "response": []
         }
@@ -466,20 +488,20 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseUrl}}/api/images/:image-id",
+              "raw": "{{baseUrl}}/api/bucket-items/images/:bucket-item-id",
               "host": [
                 "{{baseUrl}}"
               ],
               "path": [
                 "api",
+                "bucket-items",
                 "images",
-                ":image-id"
+                ":bucket-item-id"
               ],
               "variable": [
                 {
-                  "id": "fb6d0324-6c75-4e3d-90ba-fd1b241ffc53",
-                  "key": "image-id",
-                  "value": "11"
+                  "key": "bucket-item-id",
+                  "value": "3"
                 }
               ]
             }
@@ -751,7 +773,7 @@
   ],
   "variable": [
     {
-      "id": "5cbe113c-68e7-4e81-b023-6d0bc3798ddd",
+      "id": "00b0fba6-19f1-4c61-91e8-4004601b7077",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
