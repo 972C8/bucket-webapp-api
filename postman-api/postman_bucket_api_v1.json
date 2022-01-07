@@ -730,7 +730,7 @@
           "response": []
         },
         {
-          "name": "Get bucket item image by id",
+          "name": "Get bucket item image by id (NOT WORKING YET!)",
           "id": "8e44db3f-f8e9-4885-ae52-8bb893efd564",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -871,7 +871,7 @@
   ],
   "variable": [
     {
-      "id": "594b86b0-19ec-4d2a-a8ff-d43b2941de61",
+      "id": "964c513e-799e-42f2-a1f6-1d518c06e0a0",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
