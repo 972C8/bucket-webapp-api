@@ -699,6 +699,30 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "Upload profile picture Copy",
+          "id": "5314cf18-156f-48b7-9d7c-b55ca59a5d3f",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {}
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "image",
+                  "type": "file",
+                  "src": "/C:/Users/tibor/Pictures/sample.png"
+                }
+              ]
+            },
+            "url": "{{baseUrl}}/api/avatars/profile-picture"
+          },
+          "response": []
         }
       ],
       "id": "52c845d2-7182-4707-ae24-d9e8b38e2ecc"
@@ -812,7 +836,7 @@
   ],
   "variable": [
     {
-      "id": "8cd9e087-4dad-4636-a4cc-2fea880f90ed",
+      "id": "148f1455-ea8b-4cab-ac79-d47dd82c4741",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
