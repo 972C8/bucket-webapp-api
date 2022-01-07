@@ -708,23 +708,7 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {
-              "raw": "{{baseUrl}}/api/images/:image-id",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "images",
-                ":image-id"
-              ],
-              "variable": [
-                {
-                  "key": "image-id",
-                  "value": "2"
-                }
-              ]
-            }
+            "url": "{{baseUrl}}/api/avatars/profile-picture"
           },
           "response": []
         },
@@ -870,7 +854,7 @@
   ],
   "variable": [
     {
-      "id": "875b3b7f-4a3e-4017-b29c-5e283e629189",
+      "id": "83e39f04-8922-4a96-9217-79454fbabd2d",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
