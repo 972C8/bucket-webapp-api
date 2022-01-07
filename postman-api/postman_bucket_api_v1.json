@@ -149,6 +149,19 @@
             "url": "{{baseUrl}}/api/avatars/profile-picture"
           },
           "response": []
+        },
+        {
+          "name": "Get profile picture of current avatar",
+          "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/api/avatars/profile-picture"
+          },
+          "response": []
         }
       ],
       "id": "e6e2f295-ec06-4dfd-b1b0-5596a4d8fd13"
@@ -695,19 +708,6 @@
           "response": []
         },
         {
-          "name": "Get profile picture of current avatar",
-          "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": "{{baseUrl}}/api/avatars/profile-picture"
-          },
-          "response": []
-        },
-        {
           "name": "Get image of bucket item by bucketItemId",
           "id": "8e44db3f-f8e9-4885-ae52-8bb893efd564",
           "protocolProfileBehavior": {
@@ -849,7 +849,7 @@
   ],
   "variable": [
     {
-      "id": "dc249f78-1464-464c-b3b9-3311453b2444",
+      "id": "5e13c30b-12f4-41cd-9787-ed4eac15ed27",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
