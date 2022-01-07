@@ -31,6 +31,30 @@
           "response": []
         },
         {
+          "name": "Upload new profile picture (for current user)",
+          "id": "b565a6eb-68ee-49c8-8e40-91c2ee08ceb4",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {}
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "image",
+                  "type": "file",
+                  "src": "/C:/Users/tibor/Pictures/sample.png"
+                }
+              ]
+            },
+            "url": "{{baseUrl}}/api/avatars/profile-picture"
+          },
+          "response": []
+        },
+        {
           "name": "Get avatar by id",
           "id": "229f36cc-7a65-4c28-85cc-d0a368dbe073",
           "protocolProfileBehavior": {
@@ -56,6 +80,19 @@
                 }
               ]
             }
+          },
+          "response": []
+        },
+        {
+          "name": "Get profile picture of current avatar",
+          "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/api/avatars/profile-picture"
           },
           "response": []
         },
@@ -123,43 +160,6 @@
                 }
               ]
             }
-          },
-          "response": []
-        },
-        {
-          "name": "Upload new profile picture (for current user)",
-          "id": "b565a6eb-68ee-49c8-8e40-91c2ee08ceb4",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true,
-            "disabledSystemHeaders": {}
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "formdata",
-              "formdata": [
-                {
-                  "key": "image",
-                  "type": "file",
-                  "src": "/C:/Users/tibor/Pictures/sample.png"
-                }
-              ]
-            },
-            "url": "{{baseUrl}}/api/avatars/profile-picture"
-          },
-          "response": []
-        },
-        {
-          "name": "Get profile picture of current avatar",
-          "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": "{{baseUrl}}/api/avatars/profile-picture"
           },
           "response": []
         }
@@ -299,34 +299,6 @@
             "url": "{{baseUrl}}/api/bucket-items"
           },
           "response": []
-        },
-        {
-          "name": "Get all bucket items of avatar (Deprecated?)",
-          "id": "23baab9e-8ba7-4be3-8c11-f75eb25fcdd9",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": "{{baseUrl}}/api/bucket-items?avatar-id=15",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "bucket-items"
-              ],
-              "query": [
-                {
-                  "key": "avatar-id",
-                  "value": "15"
-                }
-              ]
-            }
-          },
-          "response": []
         }
       ],
       "id": "9462f8ad-807c-4480-9066-efa6c981acfc"
@@ -432,6 +404,30 @@
           ]
         },
         {
+          "name": "Upload new bucket item image",
+          "id": "5314cf18-156f-48b7-9d7c-b55ca59a5d3f",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {}
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "image",
+                  "type": "file",
+                  "src": "/C:/Users/tibor/Pictures/sample.png"
+                }
+              ]
+            },
+            "url": "{{baseUrl}}/api/bucket-items/images"
+          },
+          "response": []
+        },
+        {
           "name": "Get bucket by id",
           "id": "325e497f-3a49-4812-a2eb-b98e4ed071f1",
           "protocolProfileBehavior": {
@@ -454,6 +450,36 @@
                 {
                   "key": "bucket-id",
                   "value": "4"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get image of bucket item by item id",
+          "id": "8e44db3f-f8e9-4885-ae52-8bb893efd564",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/images/:image-id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "images",
+                ":image-id"
+              ],
+              "variable": [
+                {
+                  "id": "fb6d0324-6c75-4e3d-90ba-fd1b241ffc53",
+                  "key": "image-id",
+                  "value": "11"
                 }
               ]
             }
@@ -681,66 +707,6 @@
       "id": "d94ae066-a000-4b06-8834-a7c94ec68192"
     },
     {
-      "name": "images",
-      "item": [
-        {
-          "name": "Upload new bucket item image",
-          "id": "5314cf18-156f-48b7-9d7c-b55ca59a5d3f",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true,
-            "disabledSystemHeaders": {}
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "formdata",
-              "formdata": [
-                {
-                  "key": "image",
-                  "type": "file",
-                  "src": "/C:/Users/tibor/Pictures/sample.png"
-                }
-              ]
-            },
-            "url": "{{baseUrl}}/api/bucket-items/images"
-          },
-          "response": []
-        },
-        {
-          "name": "Get image of bucket item by bucketItemId",
-          "id": "8e44db3f-f8e9-4885-ae52-8bb893efd564",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": "{{baseUrl}}/api/images/:image-id",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "images",
-                ":image-id"
-              ],
-              "variable": [
-                {
-                  "id": "fb6d0324-6c75-4e3d-90ba-fd1b241ffc53",
-                  "key": "image-id",
-                  "value": "11"
-                }
-              ]
-            }
-          },
-          "response": []
-        }
-      ],
-      "id": "52c845d2-7182-4707-ae24-d9e8b38e2ecc"
-    },
-    {
       "name": "Test connection",
       "id": "1b36492c-5bb5-4d91-b3d5-e55395c03439",
       "protocolProfileBehavior": {
@@ -750,70 +716,6 @@
         "method": "HEAD",
         "header": [],
         "url": "{{baseUrl}}"
-      },
-      "response": []
-    },
-    {
-      "name": "Get image by id",
-      "id": "5e1a7f70-b97b-4b55-939d-3945948bfe2d",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/images/:image-id",
-          "host": [
-            "{{baseUrl}}"
-          ],
-          "path": [
-            "api",
-            "images",
-            ":image-id"
-          ],
-          "variable": [
-            {
-              "key": "image-id",
-              "value": "11"
-            }
-          ]
-        }
-      },
-      "response": []
-    },
-    {
-      "name": "Upload image",
-      "id": "da3b3808-edae-48f4-b1eb-58085aa42953",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true,
-        "disabledSystemHeaders": {}
-      },
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "formdata",
-          "formdata": [
-            {
-              "key": "image",
-              "type": "file",
-              "src": "/C:/Users/tibor/Pictures/sample.png"
-            },
-            {
-              "key": "avatar",
-              "value": "1",
-              "type": "default"
-            },
-            {
-              "key": "bucketItem",
-              "value": "2",
-              "type": "default",
-              "disabled": true
-            }
-          ]
-        },
-        "url": "{{baseUrl}}/api/images"
       },
       "response": []
     }
@@ -849,7 +751,7 @@
   ],
   "variable": [
     {
-      "id": "95c7fd37-ccce-4729-a516-5e8f46752413",
+      "id": "f45a7203-bf00-4449-b452-f2a3b0f27fa3",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
