@@ -620,7 +620,7 @@
               "variable": [
                 {
                   "key": "label-id",
-                  "value": "123"
+                  "value": "3"
                 }
               ]
             }
@@ -870,7 +870,7 @@
   ],
   "variable": [
     {
-      "id": "321581d8-ebbb-4a23-ad5c-bf6e7abc51d4",
+      "id": "1fb40d62-67bd-4670-a858-1005787d9425",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
