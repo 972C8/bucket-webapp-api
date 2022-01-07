@@ -671,7 +671,7 @@
           "response": []
         },
         {
-          "name": "Upload new image",
+          "name": "Upload new bucket item image",
           "id": "5314cf18-156f-48b7-9d7c-b55ca59a5d3f",
           "protocolProfileBehavior": {
             "disableBodyPruning": true,
@@ -695,7 +695,7 @@
           "response": []
         },
         {
-          "name": "Get profile picture of current avatar (NOT WORKING YET!)",
+          "name": "Get profile picture of current avatar",
           "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -849,7 +849,7 @@
   ],
   "variable": [
     {
-      "id": "90b95f82-a03d-4acb-8147-b664b91b3b5d",
+      "id": "0a938a39-1ca5-477a-af66-2163dd55f406",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
