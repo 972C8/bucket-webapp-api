@@ -734,35 +734,6 @@
             "url": "{{baseUrl}}/api/images"
           },
           "response": []
-        },
-        {
-          "name": "Get image by id",
-          "id": "5e1a7f70-b97b-4b55-939d-3945948bfe2d",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": "{{baseUrl}}/api/images/:image-id",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "images",
-                ":image-id"
-              ],
-              "variable": [
-                {
-                  "key": "image-id",
-                  "value": "11"
-                }
-              ]
-            }
-          },
-          "response": []
         }
       ],
       "id": "52c845d2-7182-4707-ae24-d9e8b38e2ecc"
@@ -777,6 +748,35 @@
         "method": "HEAD",
         "header": [],
         "url": "{{baseUrl}}"
+      },
+      "response": []
+    },
+    {
+      "name": "Get image by id",
+      "id": "5e1a7f70-b97b-4b55-939d-3945948bfe2d",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/images/:image-id",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "images",
+            ":image-id"
+          ],
+          "variable": [
+            {
+              "key": "image-id",
+              "value": "11"
+            }
+          ]
+        }
       },
       "response": []
     }
@@ -812,7 +812,7 @@
   ],
   "variable": [
     {
-      "id": "23585c8a-5b75-4bdd-9c64-17897804aeb4",
+      "id": "185e79f4-55c6-4b8a-8581-c3f282eeae15",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
