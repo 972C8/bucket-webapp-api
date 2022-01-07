@@ -205,7 +205,7 @@
               "variable": [
                 {
                   "key": "item-id",
-                  "value": "2"
+                  "value": "6"
                 }
               ]
             }
@@ -223,7 +223,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"title\": \"Run a marathon 4\",\r\n    \"description\": \"Run the London marathon 2\",\r\n    \"dateToAccomplish\": \"tomorrow?\",\r\n    \"avatar\": {\r\n        \"id\": 1\r\n    },\r\n    \"bucket\": {\r\n        \"id\": 3\r\n    }\r\n}",
+              "raw": "{\r\n    \"title\": \"new bucket item 2\",\r\n    \"description\": \"great description of the item 2\",\r\n    \"dateToAccomplish\": \"tomorrow?\",\r\n    \"bucket\": {\r\n        \"id\": 5\r\n    },\r\n    \"image\": {\r\n        \"id\": 4\r\n    },\r\n    \"labels\": [\r\n        {\r\n            \"id\": 2\r\n        },\r\n        {\r\n            \"id\": 3\r\n        }\r\n    ]\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -243,7 +243,7 @@
               "variable": [
                 {
                   "key": "item-id",
-                  "value": "3"
+                  "value": "6"
                 }
               ]
             }
@@ -416,7 +416,7 @@
               "variable": [
                 {
                   "key": "bucket-id",
-                  "value": "4"
+                  "value": "2"
                 }
               ]
             }
@@ -571,7 +571,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Label 1 NEW\",\r\n    \"color\": \"#FFFFF NEW\"\r\n}",
+              "raw": "{\r\n    \"name\": \"Label 1 NEW\",\r\n    \"color\": \"#FFFFF NEW\",\r\n    \"avatar\": {\r\n        \"id\": 1\r\n    }\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -591,7 +591,7 @@
               "variable": [
                 {
                   "key": "label-id",
-                  "value": "9"
+                  "value": "4"
                 }
               ]
             }
@@ -805,7 +805,7 @@
   ],
   "variable": [
     {
-      "id": "8d257321-66db-4657-a915-3cc0542dda04",
+      "id": "766141b5-8d22-4f24-aff4-58d170355b01",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
