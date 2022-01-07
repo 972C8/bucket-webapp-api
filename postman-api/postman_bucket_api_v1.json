@@ -647,7 +647,7 @@
       "name": "images",
       "item": [
         {
-          "name": "Upload new profile picture",
+          "name": "Upload new profile picture (for current user)",
           "id": "b565a6eb-68ee-49c8-8e40-91c2ee08ceb4",
           "protocolProfileBehavior": {
             "disableBodyPruning": true,
@@ -870,7 +870,7 @@
   ],
   "variable": [
     {
-      "id": "a6a36f30-999f-4b99-8793-bb1c7e78a652",
+      "id": "4b51c2cc-0ec7-4549-a833-dd9e48fc8f4c",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
