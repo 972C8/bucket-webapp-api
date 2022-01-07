@@ -701,7 +701,7 @@
           "response": []
         },
         {
-          "name": "Upload profile picture Copy",
+          "name": "Upload image for bucket item",
           "id": "5314cf18-156f-48b7-9d7c-b55ca59a5d3f",
           "protocolProfileBehavior": {
             "disableBodyPruning": true,
@@ -717,10 +717,15 @@
                   "key": "image",
                   "type": "file",
                   "src": "/C:/Users/tibor/Pictures/sample.png"
+                },
+                {
+                  "key": "bucketItem",
+                  "value": "2",
+                  "type": "default"
                 }
               ]
             },
-            "url": "{{baseUrl}}/api/avatars/profile-picture"
+            "url": "{{baseUrl}}/api/bucket-items/images"
           },
           "response": []
         }
@@ -836,7 +841,7 @@
   ],
   "variable": [
     {
-      "id": "a6ab5cc8-c25b-49ae-9cb3-295b4d53568a",
+      "id": "5ad7e4bf-3f3c-4c09-9c65-5a8aafa7a07c",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
