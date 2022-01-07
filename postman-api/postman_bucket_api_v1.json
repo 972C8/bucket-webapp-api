@@ -735,11 +735,6 @@
       "id": "d94ae066-a000-4b06-8834-a7c94ec68192"
     },
     {
-      "name": "images",
-      "item": [],
-      "id": "52c845d2-7182-4707-ae24-d9e8b38e2ecc"
-    },
-    {
       "name": "Test connection",
       "id": "1b36492c-5bb5-4d91-b3d5-e55395c03439",
       "protocolProfileBehavior": {
@@ -848,7 +843,7 @@
   ],
   "variable": [
     {
-      "id": "84e43b6e-2cb0-469d-9f84-1b558cea524f",
+      "id": "2d280020-d9a0-428d-9c33-4adeaab07cd9",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
