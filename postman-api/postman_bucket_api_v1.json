@@ -19,7 +19,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"username\": \"user2\",\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
+              "raw": "{\r\n    \"name\": \"user2\",\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -213,7 +213,7 @@
               "variable": [
                 {
                   "key": "item-id",
-                  "value": "6"
+                  "value": "3"
                 }
               ]
             }
@@ -251,7 +251,7 @@
               "variable": [
                 {
                   "key": "item-id",
-                  "value": "4"
+                  "value": "2"
                 }
               ]
             }
@@ -773,7 +773,7 @@
   ],
   "variable": [
     {
-      "id": "00b0fba6-19f1-4c61-91e8-4004601b7077",
+      "id": "9acc8144-31f4-4c14-87b2-1f4f4eaa9d21",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
