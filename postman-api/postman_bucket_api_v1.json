@@ -308,7 +308,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\"\r\n}",
+              "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\",\r\n    \"avatar\": {\r\n        \"id\": 1\r\n    }\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -416,7 +416,7 @@
               "variable": [
                 {
                   "key": "bucket-id",
-                  "value": "2"
+                  "value": "4"
                 }
               ]
             }
@@ -553,7 +553,7 @@
               "variable": [
                 {
                   "key": "label-id",
-                  "value": "3"
+                  "value": "7"
                 }
               ]
             }
@@ -805,7 +805,7 @@
   ],
   "variable": [
     {
-      "id": "22846ce6-5345-4a63-805a-dcdea63bde32",
+      "id": "e1be186e-d1a8-4496-86e8-654f650b8967",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
