@@ -700,7 +700,7 @@
           "response": []
         },
         {
-          "name": "Get profile picture by id",
+          "name": "Get profile picture by id (NOT WORKING YET!)",
           "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -731,6 +731,35 @@
         }
       ],
       "id": "52c845d2-7182-4707-ae24-d9e8b38e2ecc"
+    },
+    {
+      "name": "Get image by id",
+      "id": "5e1a7f70-b97b-4b55-939d-3945948bfe2d",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/images/:image-id",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "images",
+            ":image-id"
+          ],
+          "variable": [
+            {
+              "key": "image-id",
+              "value": "11"
+            }
+          ]
+        }
+      },
+      "response": []
     },
     {
       "name": "Test connection",
@@ -779,35 +808,6 @@
         "url": "{{baseUrl}}/api/images"
       },
       "response": []
-    },
-    {
-      "name": "Get image by id",
-      "id": "5e1a7f70-b97b-4b55-939d-3945948bfe2d",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/images/:image-id",
-          "host": [
-            "{{baseUrl}}"
-          ],
-          "path": [
-            "api",
-            "images",
-            ":image-id"
-          ],
-          "variable": [
-            {
-              "key": "image-id",
-              "value": "11"
-            }
-          ]
-        }
-      },
-      "response": []
     }
   ],
   "auth": {
@@ -841,7 +841,7 @@
   ],
   "variable": [
     {
-      "id": "f0a18c2c-cefe-4e13-bac1-5deb5473e8e7",
+      "id": "ad68ef24-223b-4762-b833-bb4e006451d8",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
