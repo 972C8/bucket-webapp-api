@@ -19,7 +19,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"user2\",\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
+              "raw": "{\r\n    \"username\": \"user2\",\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -213,7 +213,7 @@
               "variable": [
                 {
                   "key": "item-id",
-                  "value": "3"
+                  "value": "6"
                 }
               ]
             }
@@ -488,20 +488,20 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseUrl}}/api/bucket-items/images/:bucket-item-id",
+              "raw": "{{baseUrl}}/api/images/:image-id",
               "host": [
                 "{{baseUrl}}"
               ],
               "path": [
                 "api",
-                "bucket-items",
                 "images",
-                ":bucket-item-id"
+                ":image-id"
               ],
               "variable": [
                 {
-                  "key": "bucket-item-id",
-                  "value": "3"
+                  "id": "fb6d0324-6c75-4e3d-90ba-fd1b241ffc53",
+                  "key": "image-id",
+                  "value": "11"
                 }
               ]
             }
@@ -773,7 +773,7 @@
   ],
   "variable": [
     {
-      "id": "1bd84bd3-729b-410b-aad1-bc55bb9fd2dd",
+      "id": "aecdfb32-c290-40c2-8cb0-84572be85beb",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
