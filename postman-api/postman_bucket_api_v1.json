@@ -84,6 +84,19 @@
           "response": []
         },
         {
+          "name": "Get profile picture of current avatar",
+          "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/api/avatars/profile-picture"
+          },
+          "response": []
+        },
+        {
           "name": "Edit avatar",
           "id": "6d34c392-bcce-4d63-8fa2-0666c0b8899c",
           "protocolProfileBehavior": {
@@ -147,19 +160,6 @@
                 }
               ]
             }
-          },
-          "response": []
-        },
-        {
-          "name": "Get profile picture of current avatar",
-          "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": "{{baseUrl}}/api/avatars/profile-picture"
           },
           "response": []
         }
@@ -849,7 +849,7 @@
   ],
   "variable": [
     {
-      "id": "20273828-5acb-420b-9346-34dd1398614e",
+      "id": "7645a309-7f82-495e-a54d-18074e1528c4",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
