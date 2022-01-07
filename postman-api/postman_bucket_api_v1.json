@@ -700,7 +700,7 @@
           "response": []
         },
         {
-          "name": "Get profile picture by id (NOT WORKING YET!)",
+          "name": "Get profile picture of current avatar (NOT WORKING YET!)",
           "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -870,7 +870,7 @@
   ],
   "variable": [
     {
-      "id": "60521f4e-4e8a-472a-bc8f-2c73ebbd005a",
+      "id": "e1146e8d-818a-4527-bc3b-63f183f90f68",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
