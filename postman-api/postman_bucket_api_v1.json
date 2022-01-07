@@ -682,48 +682,6 @@
           "response": []
         },
         {
-          "name": "Get image by id",
-          "id": "5e1a7f70-b97b-4b55-939d-3945948bfe2d",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": "{{baseUrl}}/api/images/:image-id",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "images",
-                ":image-id"
-              ],
-              "variable": [
-                {
-                  "key": "image-id",
-                  "value": "11"
-                }
-              ]
-            }
-          },
-          "response": []
-        },
-        {
-          "name": "Upload profile picture",
-          "id": "27a2ac1b-a28f-4a77-876c-0e5060cf046a",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": null
-          },
-          "response": []
-        },
-        {
           "name": "Upload Image Copy",
           "id": "b565a6eb-68ee-49c8-8e40-91c2ee08ceb4",
           "protocolProfileBehavior": {
@@ -755,6 +713,35 @@
               ]
             },
             "url": "{{baseUrl}}/api/images"
+          },
+          "response": []
+        },
+        {
+          "name": "Get image by id",
+          "id": "5e1a7f70-b97b-4b55-939d-3945948bfe2d",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/images/:image-id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "images",
+                ":image-id"
+              ],
+              "variable": [
+                {
+                  "key": "image-id",
+                  "value": "11"
+                }
+              ]
+            }
           },
           "response": []
         }
@@ -806,7 +793,7 @@
   ],
   "variable": [
     {
-      "id": "fbfde405-f480-49a2-91e8-4874a6015753",
+      "id": "305e9c7a-b218-4110-8471-86076584c5e9",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
