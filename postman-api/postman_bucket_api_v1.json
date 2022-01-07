@@ -432,6 +432,30 @@
           ]
         },
         {
+          "name": "Upload new bucket item image",
+          "id": "5314cf18-156f-48b7-9d7c-b55ca59a5d3f",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {}
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "image",
+                  "type": "file",
+                  "src": "/C:/Users/tibor/Pictures/sample.png"
+                }
+              ]
+            },
+            "url": "{{baseUrl}}/api/bucket-items/images"
+          },
+          "response": []
+        },
+        {
           "name": "Get bucket by id",
           "id": "325e497f-3a49-4812-a2eb-b98e4ed071f1",
           "protocolProfileBehavior": {
@@ -684,30 +708,6 @@
       "name": "images",
       "item": [
         {
-          "name": "Upload new bucket item image",
-          "id": "5314cf18-156f-48b7-9d7c-b55ca59a5d3f",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true,
-            "disabledSystemHeaders": {}
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "formdata",
-              "formdata": [
-                {
-                  "key": "image",
-                  "type": "file",
-                  "src": "/C:/Users/tibor/Pictures/sample.png"
-                }
-              ]
-            },
-            "url": "{{baseUrl}}/api/bucket-items/images"
-          },
-          "response": []
-        },
-        {
           "name": "Get image of bucket item by bucketItemId",
           "id": "8e44db3f-f8e9-4885-ae52-8bb893efd564",
           "protocolProfileBehavior": {
@@ -849,7 +849,7 @@
   ],
   "variable": [
     {
-      "id": "7645a309-7f82-495e-a54d-18074e1528c4",
+      "id": "044adf74-c2b9-4c8e-9230-04a77232b32e",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
