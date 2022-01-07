@@ -735,7 +735,7 @@
           "response": []
         },
         {
-          "name": "Get image by id Copy",
+          "name": "Get profile picture by id",
           "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -812,7 +812,7 @@
   ],
   "variable": [
     {
-      "id": "f099524a-87fa-467a-8db0-85de6d9ea843",
+      "id": "dd71fe70-e4ff-4b2a-b810-9dd953698648",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
