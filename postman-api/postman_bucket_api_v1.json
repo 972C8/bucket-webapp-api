@@ -712,7 +712,7 @@
                 }
               ]
             },
-            "url": "{{baseUrl}}/api/images"
+            "url": "{{baseUrl}}/api/avatars/profile-picture"
           },
           "response": []
         },
@@ -793,7 +793,7 @@
   ],
   "variable": [
     {
-      "id": "11ac61e9-c2d3-4659-82df-6377a47823e0",
+      "id": "7564df1d-ff99-4015-b36d-788afd04e5bf",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
