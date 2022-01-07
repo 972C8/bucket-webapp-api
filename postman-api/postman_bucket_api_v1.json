@@ -682,6 +682,41 @@
           "response": []
         },
         {
+          "name": "Upload Image Copy",
+          "id": "b565a6eb-68ee-49c8-8e40-91c2ee08ceb4",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {}
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "image",
+                  "type": "file",
+                  "src": "/C:/Users/tibor/Pictures/sample.png"
+                },
+                {
+                  "key": "avatar",
+                  "value": "1",
+                  "type": "default"
+                },
+                {
+                  "key": "bucketItem",
+                  "value": "2",
+                  "type": "default",
+                  "disabled": true
+                }
+              ]
+            },
+            "url": "{{baseUrl}}/api/images"
+          },
+          "response": []
+        },
+        {
           "name": "Get image by id",
           "id": "5e1a7f70-b97b-4b55-939d-3945948bfe2d",
           "protocolProfileBehavior": {
@@ -771,7 +806,7 @@
   ],
   "variable": [
     {
-      "id": "a872b697-7f39-4c94-bbca-7939323b8380",
+      "id": "7e4bcfb9-babc-4849-ba1b-763b252118d0",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
