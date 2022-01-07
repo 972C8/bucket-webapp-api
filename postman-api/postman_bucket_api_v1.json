@@ -647,6 +647,30 @@
       "name": "images",
       "item": [
         {
+          "name": "Upload profile picture",
+          "id": "b565a6eb-68ee-49c8-8e40-91c2ee08ceb4",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {}
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "image",
+                  "type": "file",
+                  "src": "/C:/Users/tibor/Pictures/sample.png"
+                }
+              ]
+            },
+            "url": "{{baseUrl}}/api/avatars/profile-picture"
+          },
+          "response": []
+        },
+        {
           "name": "Upload image",
           "id": "da3b3808-edae-48f4-b1eb-58085aa42953",
           "protocolProfileBehavior": {
@@ -678,30 +702,6 @@
               ]
             },
             "url": "{{baseUrl}}/api/images"
-          },
-          "response": []
-        },
-        {
-          "name": "Upload profile picture",
-          "id": "b565a6eb-68ee-49c8-8e40-91c2ee08ceb4",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true,
-            "disabledSystemHeaders": {}
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "formdata",
-              "formdata": [
-                {
-                  "key": "image",
-                  "type": "file",
-                  "src": "/C:/Users/tibor/Pictures/sample.png"
-                }
-              ]
-            },
-            "url": "{{baseUrl}}/api/avatars/profile-picture"
           },
           "response": []
         },
@@ -812,7 +812,7 @@
   ],
   "variable": [
     {
-      "id": "dd71fe70-e4ff-4b2a-b810-9dd953698648",
+      "id": "8917b7ad-835b-4aa8-b7ed-8f4ea972865e",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
