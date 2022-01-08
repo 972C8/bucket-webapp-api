@@ -771,7 +771,7 @@
       "name": "demo",
       "item": [
         {
-          "name": "Create bucket item Copy",
+          "name": "Create bucket item",
           "id": "6d5924d4-d04c-4b5d-9556-eb5cf6f7f92c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -781,7 +781,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\",\r\n    \"completed\": false,\r\n    \"bucket\": {\r\n        \"id\": 2\r\n    },\r\n    \"image\": {\r\n        \"id\": 2\r\n    },\r\n    \"labels\": [\r\n        {\r\n            \"id\": 2\r\n        },\r\n        {\r\n            \"id\": 8\r\n        }\r\n    ]\r\n}",
+              "raw": "{\r\n    \"title\": \"{{title}}\",\r\n    \"description\": \"{{description}}\",\r\n    \"completed\": {{completed}},\r\n    \"bucket\": {\r\n        \"id\": {{bucketID}}\r\n    },\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -840,7 +840,7 @@
   ],
   "variable": [
     {
-      "id": "0ba21dcd-bb18-46e8-820c-7b4e789f3146",
+      "id": "6193822b-40d6-455c-8038-10e2b7b87f8c",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
