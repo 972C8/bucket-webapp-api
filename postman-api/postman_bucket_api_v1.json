@@ -841,20 +841,19 @@
               }
             },
             "url": {
-              "raw": "{{baseUrl}}/api/buckets/:bucket-id",
+              "raw": "{{baseUrl}}/api/locations/:location-id",
               "host": [
                 "{{baseUrl}}"
               ],
               "path": [
                 "api",
-                "buckets",
-                ":bucket-id"
+                "locations",
+                ":location-id"
               ],
               "variable": [
                 {
-                  "id": "e9d218a5-c233-412c-a311-d3ca8ec7d290",
-                  "key": "bucket-id",
-                  "value": "2"
+                  "key": "location-id",
+                  "value": null
                 }
               ]
             }
@@ -909,7 +908,7 @@
   ],
   "variable": [
     {
-      "id": "f1bb0a83-cb5f-4646-bc0b-b03acdb8bdc2",
+      "id": "ab94f28a-e3f8-4562-9c7e-035bd8845279",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
