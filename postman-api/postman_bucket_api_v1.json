@@ -664,7 +664,8 @@
                   "disabled": true
                 }
               ]
-            }
+            },
+            "description": "Filter the results using the provided query params."
           },
           "response": [
             {
@@ -1278,7 +1279,7 @@
   ],
   "variable": [
     {
-      "id": "09233f2f-e786-4b48-9d37-59429df30ec8",
+      "id": "262bd354-a91a-4d59-974d-7e03770b02fc",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
