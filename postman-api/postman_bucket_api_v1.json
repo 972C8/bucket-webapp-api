@@ -743,7 +743,7 @@
       "name": "locations",
       "item": [
         {
-          "name": "Create new location",
+          "name": "Create location",
           "id": "11ae6643-2169-44a4-ad03-9758906f17b3",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -812,7 +812,7 @@
   ],
   "variable": [
     {
-      "id": "89834361-86ea-4afb-bff1-7dcdd3cab5bf",
+      "id": "a712be86-2523-46d6-ac8a-086cec4c1071",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
