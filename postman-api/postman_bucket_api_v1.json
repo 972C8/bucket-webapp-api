@@ -765,7 +765,7 @@
           "response": []
         },
         {
-          "name": "Get label by id",
+          "name": "Get location by id",
           "id": "9fb91915-3adc-4afe-a5e6-12ebf52651b9",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -842,7 +842,7 @@
   ],
   "variable": [
     {
-      "id": "a0c13c3f-a496-4f11-b65e-95f147d8c292",
+      "id": "f7e81d87-e386-4d99-8c0b-92c3ee633188",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
