@@ -781,7 +781,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"{{name}}\",\r\n    \"color\": \"{{color}}\"\r\n}",
+              "raw": "{\r\n    \"name\": \"{{name}}\",\r\n    \"color\": \"{{color}}\",\r\n    \"icon\": \"{{icon}}\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -937,7 +937,7 @@
   ],
   "variable": [
     {
-      "id": "40ead80f-ae9b-4d92-af6d-756b112021df",
+      "id": "549a135c-329a-43a0-b89d-c623de33b0db",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
