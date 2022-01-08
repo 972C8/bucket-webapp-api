@@ -1008,7 +1008,8 @@
           "response": []
         }
       ],
-      "id": "86bc0b43-07d2-42bc-8e6b-e53f4f4718d5"
+      "id": "86bc0b43-07d2-42bc-8e6b-e53f4f4718d5",
+      "description": "API requests concerning the buckets (categories)"
     },
     {
       "name": "labels",
@@ -1279,7 +1280,7 @@
   ],
   "variable": [
     {
-      "id": "262bd354-a91a-4d59-974d-7e03770b02fc",
+      "id": "b9674ab6-3a23-4bf7-b10d-1d9a7a84a952",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
