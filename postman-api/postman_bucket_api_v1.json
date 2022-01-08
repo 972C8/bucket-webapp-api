@@ -28,7 +28,82 @@
             },
             "url": "{{baseUrl}}/api/avatars"
           },
-          "response": []
+          "response": [
+            {
+              "id": "a3748b5a-bc55-462e-9d56-229b8de7b345",
+              "name": "Create avatar",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"name\": \"user2\",\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{baseUrl}}/api/avatars"
+              },
+              "status": "Created",
+              "code": 201,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Location",
+                  "value": "http://localhost:8080/api/avatars/5"
+                },
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "X-XSS-Protection",
+                  "value": "1; mode=block"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, no-store, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "key": "Expires",
+                  "value": "0"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Transfer-Encoding",
+                  "value": "chunked"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 08 Jan 2022 15:09:37 GMT"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=60"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"id\": 5,\n    \"name\": \"user2\",\n    \"email\": \"user2@user.com\",\n    \"remember\": null\n}"
+            }
+          ]
         },
         {
           "name": "Upload new profile picture (for current user)",
@@ -871,7 +946,7 @@
   ],
   "variable": [
     {
-      "id": "5886ea6f-61d3-42cc-8271-e9260baf46fd",
+      "id": "909444c8-d2ce-492c-9c02-455e504d7c34",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
