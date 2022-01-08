@@ -743,19 +743,6 @@
       "name": "locations",
       "item": [
         {
-          "name": "Create new location",
-          "id": "3bce2d7f-0767-4db0-9d9d-cca4b2c030e3",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": null
-          },
-          "response": []
-        },
-        {
           "name": "Create avatar",
           "id": "11ae6643-2169-44a4-ad03-9758906f17b3",
           "protocolProfileBehavior": {
@@ -825,7 +812,7 @@
   ],
   "variable": [
     {
-      "id": "aaa08194-618f-4e89-9612-8a6720554091",
+      "id": "42be7efd-f406-4e55-89b9-66a6ce8e1278",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
