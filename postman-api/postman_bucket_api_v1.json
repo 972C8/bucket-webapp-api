@@ -180,7 +180,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\",\r\n    \"completed\": false,\r\n    \"bucket\": {\r\n        \"id\": 2\r\n    },\r\n    \"image\": {\r\n        \"id\": 2\r\n    },\r\n    \"labels\": [\r\n        {\r\n            \"id\": 2\r\n        },\r\n        {\r\n            \"id\": 8\r\n        }\r\n    ]\r\n}",
+              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\",\r\n    \"completed\": true,\r\n    \"bucket\": {\r\n        \"id\": 10\r\n    },\r\n    \"image\": {\r\n        \"id\": 2\r\n    },\r\n    \"location\": {\r\n        \"id\": 2\r\n    }\r\n    \"labels\": [\r\n        {\r\n            \"id\": 2\r\n        },\r\n        {\r\n            \"id\": 3\r\n        }\r\n    ]\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -841,7 +841,7 @@
   ],
   "variable": [
     {
-      "id": "197f3a2a-633d-4dde-999e-9c538573fdcf",
+      "id": "9f35eaef-972d-4d28-89c7-1424bf2d7816",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
