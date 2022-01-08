@@ -753,14 +753,14 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"user2\",\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
+              "raw": "{\r\n    \"address\": \"Zurich\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
                 }
               }
             },
-            "url": "{{baseUrl}}/api/avatars"
+            "url": "{{baseUrl}}/api/locations"
           },
           "response": []
         }
@@ -812,7 +812,7 @@
   ],
   "variable": [
     {
-      "id": "42be7efd-f406-4e55-89b9-66a6ce8e1278",
+      "id": "0b1bec0f-db3c-4e89-8c60-457b4ed3e914",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
