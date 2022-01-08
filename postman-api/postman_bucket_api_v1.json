@@ -890,7 +890,7 @@
               "variable": [
                 {
                   "key": "bucket-id",
-                  "value": "2"
+                  "value": "9"
                 }
               ]
             }
@@ -1165,7 +1165,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Hiking\",\r\n    \"color\": \"#FFFFF\"\r\n}",
+              "raw": "{\r\n    \"name\": \"Hiking\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1273,7 +1273,7 @@
               "variable": [
                 {
                   "key": "label-id",
-                  "value": "3"
+                  "value": "10"
                 }
               ]
             }
@@ -1794,7 +1794,7 @@
   ],
   "variable": [
     {
-      "id": "c5f7e4b4-9a02-49cf-b471-df4f72e1cc66",
+      "id": "3dc173ad-e623-4dce-9287-cbc44a313cf2",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
