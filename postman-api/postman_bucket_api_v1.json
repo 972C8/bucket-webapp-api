@@ -475,7 +475,85 @@
               ]
             }
           },
-          "response": []
+          "response": [
+            {
+              "id": "303c2e50-8e6e-48af-8a7f-53553ee73549",
+              "name": "Get bucket item by id",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/bucket-items/:item-id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "bucket-items",
+                    ":item-id"
+                  ],
+                  "variable": [
+                    {
+                      "key": "item-id",
+                      "value": "8"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "X-XSS-Protection",
+                  "value": "1; mode=block"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, no-store, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "key": "Expires",
+                  "value": "0"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Transfer-Encoding",
+                  "value": "chunked"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 08 Jan 2022 15:25:16 GMT"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=60"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"id\": 8,\n    \"title\": \"new bucket item\",\n    \"description\": \"great description of the item\",\n    \"created\": \"2022-01-08T15:23:31.345477Z\",\n    \"dateToAccomplish\": \"2022-12-01\",\n    \"completed\": true,\n    \"dateAccomplishedOn\": \"2022-11-12\",\n    \"bucket\": {\n        \"id\": 4,\n        \"name\": \"Category 1\",\n        \"color\": \"#FFFFF\",\n        \"icon\": null\n    },\n    \"image\": {\n        \"id\": 5\n    },\n    \"location\": {\n        \"id\": 3,\n        \"address\": \"Tellstrasse+25%2C+5000+Aarau%2C+Switzerland\",\n        \"googleMapsUrl\": \"https://www.google.com/maps/place/\"\n    },\n    \"labels\": [\n        {\n            \"id\": 2,\n            \"name\": \"Hiking\"\n        },\n        {\n            \"id\": 6,\n            \"name\": \"Hiking\"\n        }\n    ]\n}"
+            }
+          ]
         },
         {
           "name": "Edit bucket item",
@@ -1105,7 +1183,7 @@
   ],
   "variable": [
     {
-      "id": "39c09c14-e927-4ddf-b5ee-3494c61f8bd2",
+      "id": "d1aeb63e-a5a7-4625-b1c5-7ac9cb47cb4e",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
