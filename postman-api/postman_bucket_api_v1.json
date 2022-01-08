@@ -240,7 +240,8 @@
           "response": []
         }
       ],
-      "id": "e6e2f295-ec06-4dfd-b1b0-5596a4d8fd13"
+      "id": "e6e2f295-ec06-4dfd-b1b0-5596a4d8fd13",
+      "description": "API requests concerning the avatars (users)"
     },
     {
       "name": "bucket-items",
@@ -947,7 +948,7 @@
   ],
   "variable": [
     {
-      "id": "8f6825ef-24df-467b-9100-6c85b6bddee5",
+      "id": "6c5106dc-8f70-466a-9e10-c03eab4d1f9f",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
