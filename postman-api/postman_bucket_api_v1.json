@@ -1589,7 +1589,8 @@
           "response": []
         }
       ],
-      "id": "4d230e66-5fe6-44d4-a397-4e08e8592e7e"
+      "id": "4d230e66-5fe6-44d4-a397-4e08e8592e7e",
+      "description": "API requests concerning the location (assigned to bucket items)"
     },
     {
       "name": "Test connection",
@@ -1636,7 +1637,7 @@
   ],
   "variable": [
     {
-      "id": "b4f2b502-d156-41db-b393-b9ef15c9417b",
+      "id": "49613613-6e8d-47e6-9dc1-67ef1dcae51b",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
