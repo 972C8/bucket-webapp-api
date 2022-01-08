@@ -129,79 +129,7 @@
             "url": "{{baseUrl}}/api/avatars/profile-picture",
             "description": "New profile picture is created and assigned to the current user"
           },
-          "response": [
-            {
-              "id": "cdef55d3-3669-4a15-aea8-d586a90e1207",
-              "name": "Upload new profile picture (for current user)",
-              "originalRequest": {
-                "method": "POST",
-                "header": [],
-                "body": {
-                  "mode": "formdata",
-                  "formdata": [
-                    {
-                      "key": "image",
-                      "type": "file",
-                      "src": "/C:/Users/tibor/Pictures/sample.png"
-                    }
-                  ]
-                },
-                "url": "{{baseUrl}}/api/avatars/profile-picture"
-              },
-              "status": "Accepted",
-              "code": 202,
-              "_postman_previewlanguage": "json",
-              "header": [
-                {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "1; mode=block"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
-                  "key": "Content-Type",
-                  "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Sat, 08 Jan 2022 15:16:30 GMT"
-                },
-                {
-                  "key": "Keep-Alive",
-                  "value": "timeout=60"
-                },
-                {
-                  "key": "Connection",
-                  "value": "keep-alive"
-                }
-              ],
-              "cookie": [],
-              "responseTime": null,
-              "body": "{\n    \"id\": 6\n}"
-            }
-          ]
+          "response": []
         },
         {
           "name": "Get avatar by id",
@@ -1021,7 +949,7 @@
   ],
   "variable": [
     {
-      "id": "583b7510-6839-42ca-9941-c76372faa66f",
+      "id": "3163d6b0-8ccd-4c58-8d61-9914f637985b",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
