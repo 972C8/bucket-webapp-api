@@ -192,6 +192,28 @@
           "response": []
         },
         {
+          "name": "Create bucket item Copy",
+          "id": "6d5924d4-d04c-4b5d-9556-eb5cf6f7f92c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\",\r\n    \"completed\": false,\r\n    \"bucket\": {\r\n        \"id\": 2\r\n    },\r\n    \"image\": {\r\n        \"id\": 2\r\n    },\r\n    \"labels\": [\r\n        {\r\n            \"id\": 2\r\n        },\r\n        {\r\n            \"id\": 8\r\n        }\r\n    ]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "{{baseUrl}}/api/bucket-items"
+          },
+          "response": []
+        },
+        {
           "name": "Get bucket item by id",
           "id": "38995708-7f05-49e9-868e-dd62895ca066",
           "protocolProfileBehavior": {
@@ -330,28 +352,6 @@
                 }
               ]
             }
-          },
-          "response": []
-        },
-        {
-          "name": "Create bucket item Copy",
-          "id": "6d5924d4-d04c-4b5d-9556-eb5cf6f7f92c",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\",\r\n    \"completed\": false,\r\n    \"bucket\": {\r\n        \"id\": 2\r\n    },\r\n    \"image\": {\r\n        \"id\": 2\r\n    },\r\n    \"labels\": [\r\n        {\r\n            \"id\": 2\r\n        },\r\n        {\r\n            \"id\": 8\r\n        }\r\n    ]\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": "{{baseUrl}}/api/bucket-items"
           },
           "response": []
         }
@@ -834,7 +834,7 @@
   ],
   "variable": [
     {
-      "id": "92e9e1b9-5094-4faf-8507-9dc66392d98e",
+      "id": "6aaf670e-00cc-41ce-b62f-88a51a65f424",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
