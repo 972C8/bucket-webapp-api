@@ -793,7 +793,7 @@
           "response": []
         },
         {
-          "name": "Create bucket Copy",
+          "name": "Create bucket",
           "id": "8f8ad7c5-a144-4118-a146-4fab78cf6873",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -937,7 +937,7 @@
   ],
   "variable": [
     {
-      "id": "c512a219-93ea-46be-a370-ad526eca49a1",
+      "id": "88f7e868-581c-4537-9634-119b3a2199c7",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
