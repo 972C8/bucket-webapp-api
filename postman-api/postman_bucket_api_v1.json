@@ -127,7 +127,7 @@
               ]
             },
             "url": "{{baseUrl}}/api/avatars/profile-picture",
-            "description": "New profile picture is created and assigned to the current user"
+            "description": "Create a new profile picture and automatically assign it to the current user"
           },
           "response": [
             {
@@ -1021,7 +1021,7 @@
   ],
   "variable": [
     {
-      "id": "e0966186-0c6c-4f42-9f09-4dba9af6c7c9",
+      "id": "35022031-dfc9-4b6d-842f-dcd43952a046",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
