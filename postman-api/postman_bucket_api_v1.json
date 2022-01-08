@@ -343,7 +343,8 @@
                 }
               }
             },
-            "url": "{{baseUrl}}/api/bucket-items"
+            "url": "{{baseUrl}}/api/bucket-items",
+            "description": "Create a new bucket item and reference prior created bucket, location, image, and labels using the example format."
           },
           "response": [
             {
@@ -1103,7 +1104,7 @@
   ],
   "variable": [
     {
-      "id": "76c52014-4509-4f78-bf32-362e6df05cec",
+      "id": "a24f0997-3749-409b-83bc-9a4e5e54e4cb",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
