@@ -1278,7 +1278,85 @@
               ]
             }
           },
-          "response": []
+          "response": [
+            {
+              "id": "7cca0ade-e3c6-4ed9-9b90-80040ecad7c1",
+              "name": "Get label by id",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/labels/:label-id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "labels",
+                    ":label-id"
+                  ],
+                  "variable": [
+                    {
+                      "key": "label-id",
+                      "value": "10"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "X-XSS-Protection",
+                  "value": "1; mode=block"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, no-store, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "key": "Expires",
+                  "value": "0"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Transfer-Encoding",
+                  "value": "chunked"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 08 Jan 2022 15:29:25 GMT"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=60"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"id\": 10,\n    \"name\": \"Hiking\"\n}"
+            }
+          ]
         },
         {
           "name": "Edit label",
@@ -1496,7 +1574,7 @@
   ],
   "variable": [
     {
-      "id": "1edb5993-768a-41e1-905f-083bc54df356",
+      "id": "f9e092ba-b726-4e18-a326-5b7d813b2a96",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
