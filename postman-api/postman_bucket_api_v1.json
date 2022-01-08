@@ -443,7 +443,8 @@
                 }
               ]
             },
-            "url": "{{baseUrl}}/api/bucket-items/images"
+            "url": "{{baseUrl}}/api/bucket-items/images",
+            "description": "Upload new image that can be referenced when creating a new bucket item"
           },
           "response": []
         },
@@ -1104,7 +1105,7 @@
   ],
   "variable": [
     {
-      "id": "f8d7126f-68e3-45c7-a8e8-a3ce1459043f",
+      "id": "39c09c14-e927-4ddf-b5ee-3494c61f8bd2",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
