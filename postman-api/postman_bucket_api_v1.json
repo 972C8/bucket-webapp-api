@@ -740,6 +740,11 @@
       "id": "d94ae066-a000-4b06-8834-a7c94ec68192"
     },
     {
+      "name": "New Folder",
+      "item": [],
+      "id": "4d230e66-5fe6-44d4-a397-4e08e8592e7e"
+    },
+    {
       "name": "Test connection",
       "id": "1b36492c-5bb5-4d91-b3d5-e55395c03439",
       "protocolProfileBehavior": {
@@ -784,7 +789,7 @@
   ],
   "variable": [
     {
-      "id": "53e4995f-c685-4fac-abc0-8bf744b75896",
+      "id": "0f5cc0a5-af34-4a3c-b458-6ac108f4c403",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
