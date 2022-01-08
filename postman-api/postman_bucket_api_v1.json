@@ -1634,7 +1634,85 @@
               ]
             }
           },
-          "response": []
+          "response": [
+            {
+              "id": "4bf21c8a-f45d-478d-af83-22f089628767",
+              "name": "Get location by id",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/locations/:location-id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "locations",
+                    ":location-id"
+                  ],
+                  "variable": [
+                    {
+                      "key": "location-id",
+                      "value": "11"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "X-XSS-Protection",
+                  "value": "1; mode=block"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, no-store, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "key": "Expires",
+                  "value": "0"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Transfer-Encoding",
+                  "value": "chunked"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 08 Jan 2022 15:30:45 GMT"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=60"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"id\": 11,\n    \"address\": \"Tellstrasse+25%2C+5000+Aarau%2C+Switzerland\",\n    \"googleMapsUrl\": \"https://www.google.com/maps/place/\"\n}"
+            }
+          ]
         },
         {
           "name": "Delete location",
@@ -1678,7 +1756,8 @@
       "request": {
         "method": "HEAD",
         "header": [],
-        "url": "{{baseUrl}}"
+        "url": "{{baseUrl}}",
+        "description": "Test whether the local server is running"
       },
       "response": []
     }
@@ -1714,7 +1793,7 @@
   ],
   "variable": [
     {
-      "id": "73f735dc-c2c5-430e-8291-fc629571f983",
+      "id": "9aedf210-8444-4d2a-b164-3a15b5a2766f",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
