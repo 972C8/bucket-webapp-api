@@ -781,7 +781,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\"\r\n}",
+              "raw": "{\r\n    \"name\": \"{{name}}\",\r\n    \"color\": \"{{color}}\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -937,7 +937,7 @@
   ],
   "variable": [
     {
-      "id": "fd3fadd7-20ee-42b0-946e-e2595fc1c368",
+      "id": "9b97f612-82e5-4eb5-9925-19fc4fc54dd7",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
