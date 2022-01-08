@@ -490,7 +490,8 @@
           "response": []
         }
       ],
-      "id": "9462f8ad-807c-4480-9066-efa6c981acfc"
+      "id": "9462f8ad-807c-4480-9066-efa6c981acfc",
+      "description": "API requests concerning the bucket items (aka todo items)"
     },
     {
       "name": "buckets",
@@ -1027,7 +1028,7 @@
   ],
   "variable": [
     {
-      "id": "fb641750-61bc-4c44-917c-2729f9d6b6e6",
+      "id": "463d9979-d0ba-48ed-aa0a-01d72bfcd45c",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
