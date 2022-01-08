@@ -180,7 +180,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\",\r\n    \"completed\": false,\r\n    \"bucket\": {\r\n        \"id\": 3\r\n    },\r\n    \"image\": {\r\n        \"id\": 2\r\n    },\r\n    \"labels\": [\r\n        {\r\n            \"id\": 4\r\n        },\r\n        {\r\n            \"id\": 3\r\n        }\r\n    ]\r\n}",
+              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\",\r\n    \"completed\": false,\r\n    \"bucket\": {\r\n        \"id\": 2\r\n    },\r\n    \"image\": {\r\n        \"id\": 2\r\n    },\r\n    \"labels\": [\r\n        {\r\n            \"id\": 2\r\n        },\r\n        {\r\n            \"id\": 8\r\n        }\r\n    ]\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -213,7 +213,7 @@
               "variable": [
                 {
                   "key": "item-id",
-                  "value": "3"
+                  "value": "4"
                 }
               ]
             }
@@ -280,7 +280,7 @@
               "variable": [
                 {
                   "key": "item-id",
-                  "value": "6"
+                  "value": "3"
                 }
               ]
             }
@@ -705,7 +705,7 @@
               "variable": [
                 {
                   "key": "label-id",
-                  "value": "3"
+                  "value": "8"
                 }
               ]
             }
@@ -773,7 +773,7 @@
   ],
   "variable": [
     {
-      "id": "3dc6c62d-0a8b-45a4-b10f-4e0837fbd87d",
+      "id": "12970394-d83e-41a2-8d45-bd8382cbeaaa",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
