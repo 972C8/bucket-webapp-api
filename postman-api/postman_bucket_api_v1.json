@@ -158,7 +158,85 @@
               ]
             }
           },
-          "response": []
+          "response": [
+            {
+              "id": "486c3e2c-fc38-4ca9-9d1f-ed7d3316d255",
+              "name": "Get avatar by id",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/avatars/:avatar-id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "avatars",
+                    ":avatar-id"
+                  ],
+                  "variable": [
+                    {
+                      "key": "avatar-id",
+                      "value": "1"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "X-XSS-Protection",
+                  "value": "1; mode=block"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, no-store, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "key": "Expires",
+                  "value": "0"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Transfer-Encoding",
+                  "value": "chunked"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 08 Jan 2022 15:18:13 GMT"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=60"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"id\": 1,\n    \"name\": \"user\",\n    \"email\": \"user@user.com\",\n    \"remember\": null\n}"
+            }
+          ]
         },
         {
           "name": "Get profile picture of current avatar",
@@ -949,7 +1027,7 @@
   ],
   "variable": [
     {
-      "id": "4e30e70f-4df3-4594-8014-ea5a35c0342d",
+      "id": "8fca9fb8-d0f8-4c91-a562-cc1c7ff59953",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
