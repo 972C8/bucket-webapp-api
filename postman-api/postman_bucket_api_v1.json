@@ -743,7 +743,7 @@
       "name": "locations",
       "item": [
         {
-          "name": "Create avatar",
+          "name": "Create new location",
           "id": "11ae6643-2169-44a4-ad03-9758906f17b3",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -812,7 +812,7 @@
   ],
   "variable": [
     {
-      "id": "0b1bec0f-db3c-4e89-8c60-457b4ed3e914",
+      "id": "89834361-86ea-4afb-bff1-7dcdd3cab5bf",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
