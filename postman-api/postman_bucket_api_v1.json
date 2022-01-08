@@ -768,30 +768,8 @@
       "id": "4d230e66-5fe6-44d4-a397-4e08e8592e7e"
     },
     {
-      "name": "demo",
+      "name": "demo-data",
       "item": [
-        {
-          "name": "Create bucket item",
-          "id": "6d5924d4-d04c-4b5d-9556-eb5cf6f7f92c",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"title\": \"{{title}}\",\r\n    \"description\": \"{{description}}\",\r\n    \"completed\": {{completed}},\r\n    \"bucket\": {\r\n        \"id\": {{bucketID}}\r\n    },\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": "{{baseUrl}}/api/bucket-items"
-          },
-          "response": []
-        },
         {
           "name": "Create bucket",
           "id": "8f8ad7c5-a144-4118-a146-4fab78cf6873",
@@ -888,6 +866,28 @@
               "body": "{\n    \"id\": 3,\n    \"name\": \"Category 1\",\n    \"color\": \"#FFFFF\",\n    \"icon\": null\n}"
             }
           ]
+        },
+        {
+          "name": "Create bucket item",
+          "id": "6d5924d4-d04c-4b5d-9556-eb5cf6f7f92c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"title\": \"{{title}}\",\r\n    \"description\": \"{{description}}\",\r\n    \"completed\": {{completed}},\r\n    \"bucket\": {\r\n        \"id\": {{bucketID}}\r\n    },\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "{{baseUrl}}/api/bucket-items"
+          },
+          "response": []
         }
       ],
       "id": "cd0f0d60-1024-4088-8cfb-994354cc8e31"
@@ -937,7 +937,7 @@
   ],
   "variable": [
     {
-      "id": "88f7e868-581c-4537-9634-119b3a2199c7",
+      "id": "fd3fadd7-20ee-42b0-946e-e2595fc1c368",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
