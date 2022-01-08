@@ -2,6 +2,7 @@
   "info": {
     "_postman_id": "76e2e264-c83c-4ed1-b368-1b1ff6d6a3df",
     "name": "Bucket API v1",
+    "description": "The API served through [https://github.com/972C8/bucket-webapp](https://github.com/972C8/bucket-webapp).",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
@@ -946,7 +947,7 @@
   ],
   "variable": [
     {
-      "id": "3138f159-983e-42ec-bb1e-41f0e09045ff",
+      "id": "8f6825ef-24df-467b-9100-6c85b6bddee5",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
