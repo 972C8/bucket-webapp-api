@@ -27,8 +27,7 @@
                 }
               }
             },
-            "url": "{{baseUrl}}/api/avatars",
-            "description": "Create a new avatar"
+            "url": "{{baseUrl}}/api/avatars"
           },
           "response": [
             {
@@ -949,7 +948,7 @@
   ],
   "variable": [
     {
-      "id": "26c8bd98-65ea-4ac2-a6ad-e0131a1c7591",
+      "id": "53e755e9-be97-4225-9cb5-9101591f8743",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
