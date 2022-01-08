@@ -1632,7 +1632,8 @@
                   "value": "2"
                 }
               ]
-            }
+            },
+            "description": "Returns the address in url encoded format and ready to be used by google maps"
           },
           "response": [
             {
@@ -1793,7 +1794,7 @@
   ],
   "variable": [
     {
-      "id": "9aedf210-8444-4d2a-b164-3a15b5a2766f",
+      "id": "c3b5d680-6cdd-463e-bda0-0dc3b3215c9a",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
