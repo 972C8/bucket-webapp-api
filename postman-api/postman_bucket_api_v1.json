@@ -774,20 +774,19 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseUrl}}/api/labels/:label-id",
+              "raw": "{{baseUrl}}/api/locations/:location-id",
               "host": [
                 "{{baseUrl}}"
               ],
               "path": [
                 "api",
-                "labels",
-                ":label-id"
+                "locations",
+                ":location-id"
               ],
               "variable": [
                 {
-                  "id": "f9c56206-864d-4d20-80a3-9eb3981bf584",
-                  "key": "label-id",
-                  "value": "3"
+                  "key": "location-id",
+                  "value": "2"
                 }
               ]
             }
@@ -842,7 +841,7 @@
   ],
   "variable": [
     {
-      "id": "f7e81d87-e386-4d99-8c0b-92c3ee633188",
+      "id": "197f3a2a-633d-4dde-999e-9c538573fdcf",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
