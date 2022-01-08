@@ -782,7 +782,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\",\r\n    \"icon\": \"apple\"\r\n}",
+              "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -890,7 +890,7 @@
               "variable": [
                 {
                   "key": "bucket-id",
-                  "value": "9"
+                  "value": "2"
                 }
               ]
             }
@@ -1794,7 +1794,7 @@
   ],
   "variable": [
     {
-      "id": "8f17d503-c7d9-4231-9fa5-2bbd20fb7c00",
+      "id": "a7a49ae1-afca-4493-b6ae-68c1fb06e98b",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
