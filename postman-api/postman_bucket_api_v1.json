@@ -900,7 +900,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Hiking\",\r\n    \"color\": \"#FFFFF\"\r\n}",
+              "raw": "{\r\n    \"name\": \"{{name}}\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -959,7 +959,7 @@
   ],
   "variable": [
     {
-      "id": "0bcc9705-cb54-413a-839c-fe350be10b9a",
+      "id": "dc85ff16-08f3-4a99-9a55-fedfc5c62b79",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
