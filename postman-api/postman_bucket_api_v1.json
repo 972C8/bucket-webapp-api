@@ -1149,7 +1149,7 @@
         }
       ],
       "id": "86bc0b43-07d2-42bc-8e6b-e53f4f4718d5",
-      "description": "API requests concerning the buckets (categories)"
+      "description": "API requests concerning the buckets (categories of bucket items)"
     },
     {
       "name": "labels",
@@ -1174,7 +1174,82 @@
             },
             "url": "{{baseUrl}}/api/labels"
           },
-          "response": []
+          "response": [
+            {
+              "id": "5e016b70-1cac-43ff-8d8f-001b5377f32c",
+              "name": "Create label",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"name\": \"Hiking\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{baseUrl}}/api/labels"
+              },
+              "status": "Created",
+              "code": 201,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Location",
+                  "value": "http://localhost:8080/api/labels/10"
+                },
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "X-XSS-Protection",
+                  "value": "1; mode=block"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, no-store, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "key": "Expires",
+                  "value": "0"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Transfer-Encoding",
+                  "value": "chunked"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 08 Jan 2022 15:29:18 GMT"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=60"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"id\": 10,\n    \"name\": \"Hiking\"\n}"
+            }
+          ]
         },
         {
           "name": "Get label by id",
@@ -1286,7 +1361,8 @@
           "response": []
         }
       ],
-      "id": "d94ae066-a000-4b06-8834-a7c94ec68192"
+      "id": "d94ae066-a000-4b06-8834-a7c94ec68192",
+      "description": "API requests concerning the labels (assigned to bucket items)"
     },
     {
       "name": "locations",
@@ -1420,7 +1496,7 @@
   ],
   "variable": [
     {
-      "id": "ea740fd5-7f3d-467c-9410-fbaa94aa7937",
+      "id": "9982058e-b947-48a0-acda-1c0812d3bfd9",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
