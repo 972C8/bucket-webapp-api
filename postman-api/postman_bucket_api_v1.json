@@ -1083,7 +1083,69 @@
             "header": [],
             "url": "{{baseUrl}}/api/buckets"
           },
-          "response": []
+          "response": [
+            {
+              "id": "2116f8d8-6735-4537-863f-c5b9fd101871",
+              "name": "Get buckets (of current avatar)",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": "{{baseUrl}}/api/buckets"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "X-XSS-Protection",
+                  "value": "1; mode=block"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, no-store, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "key": "Expires",
+                  "value": "0"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Transfer-Encoding",
+                  "value": "chunked"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 08 Jan 2022 15:28:12 GMT"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=60"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "[\n    {\n        \"id\": 4,\n        \"name\": \"Category 1\",\n        \"color\": \"#FFFFF\",\n        \"icon\": null\n    },\n    {\n        \"id\": 9,\n        \"name\": \"Category 1\",\n        \"color\": \"#FFFFF\",\n        \"icon\": \"apple\"\n    }\n]"
+            }
+          ]
         }
       ],
       "id": "86bc0b43-07d2-42bc-8e6b-e53f4f4718d5",
@@ -1358,7 +1420,7 @@
   ],
   "variable": [
     {
-      "id": "029ce14b-2c07-4027-bfb7-ebeaab0caeb9",
+      "id": "d34c26ea-d5b5-4478-8a29-03b2d6e9abdc",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
