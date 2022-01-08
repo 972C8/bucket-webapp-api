@@ -1436,7 +1436,69 @@
             "header": [],
             "url": "{{baseUrl}}/api/labels"
           },
-          "response": []
+          "response": [
+            {
+              "id": "5008353d-d4b1-49a6-969a-176ec651ad7f",
+              "name": "Get labels (of current avatar)",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": "{{baseUrl}}/api/labels"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "X-XSS-Protection",
+                  "value": "1; mode=block"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, no-store, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "key": "Expires",
+                  "value": "0"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Transfer-Encoding",
+                  "value": "chunked"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 08 Jan 2022 15:29:28 GMT"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=60"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "[\n    {\n        \"id\": 2,\n        \"name\": \"Hiking\"\n    },\n    {\n        \"id\": 6,\n        \"name\": \"Hiking\"\n    },\n    {\n        \"id\": 10,\n        \"name\": \"Hiking\"\n    }\n]"
+            }
+          ]
         }
       ],
       "id": "d94ae066-a000-4b06-8834-a7c94ec68192",
@@ -1574,7 +1636,7 @@
   ],
   "variable": [
     {
-      "id": "9bd7cbf5-1354-4dad-a77b-bdc88e91230d",
+      "id": "b5d068c5-7e00-46c0-a30f-fbea150db299",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
