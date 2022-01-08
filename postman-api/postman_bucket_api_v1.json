@@ -754,6 +754,28 @@
             "url": null
           },
           "response": []
+        },
+        {
+          "name": "Create avatar",
+          "id": "11ae6643-2169-44a4-ad03-9758906f17b3",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"user2\",\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "{{baseUrl}}/api/avatars"
+          },
+          "response": []
         }
       ],
       "id": "4d230e66-5fe6-44d4-a397-4e08e8592e7e"
@@ -803,7 +825,7 @@
   ],
   "variable": [
     {
-      "id": "0994a38d-d61d-4322-862f-f8912315bc26",
+      "id": "616e8010-a009-45c6-8c4c-e6e9cfa41055",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
