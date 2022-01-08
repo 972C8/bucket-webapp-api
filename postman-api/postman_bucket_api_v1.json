@@ -107,7 +107,7 @@
           ]
         },
         {
-          "name": "Upload new profile picture (for current user)",
+          "name": "Upload new profile picture (for current avatar)",
           "id": "b565a6eb-68ee-49c8-8e40-91c2ee08ceb4",
           "protocolProfileBehavior": {
             "disableBodyPruning": true,
@@ -1020,7 +1020,7 @@
   ],
   "variable": [
     {
-      "id": "37ffb331-1038-4a79-876d-8ec6f89a2a78",
+      "id": "70d2b0ae-abba-4e49-b0ce-59c4aeaddc70",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
