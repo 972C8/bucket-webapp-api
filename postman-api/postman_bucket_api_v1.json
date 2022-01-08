@@ -332,6 +332,28 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "Create bucket item Copy",
+          "id": "6d5924d4-d04c-4b5d-9556-eb5cf6f7f92c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"title\": \"new bucket item\",\r\n    \"description\": \"great description of the item\",\r\n    \"completed\": false,\r\n    \"bucket\": {\r\n        \"id\": 2\r\n    },\r\n    \"image\": {\r\n        \"id\": 2\r\n    },\r\n    \"labels\": [\r\n        {\r\n            \"id\": 2\r\n        },\r\n        {\r\n            \"id\": 8\r\n        }\r\n    ]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "{{baseUrl}}/api/bucket-items"
+          },
+          "response": []
         }
       ],
       "id": "9462f8ad-807c-4480-9066-efa6c981acfc"
@@ -812,7 +834,7 @@
   ],
   "variable": [
     {
-      "id": "a712be86-2523-46d6-ac8a-086cec4c1071",
+      "id": "92e9e1b9-5094-4faf-8507-9dc66392d98e",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
