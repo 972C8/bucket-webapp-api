@@ -598,6 +598,103 @@
             "url": "{{baseUrl}}/api/buckets"
           },
           "response": []
+        },
+        {
+          "name": "Create bucket Copy",
+          "id": "8f8ad7c5-a144-4118-a146-4fab78cf6873",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "{{baseUrl}}/api/buckets"
+          },
+          "response": [
+            {
+              "id": "99b22918-a038-416e-88e3-d96c4b208474",
+              "name": "Create bucket",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"name\": \"Category 1\",\r\n    \"color\": \"#FFFFF\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{baseUrl}}/api/buckets"
+              },
+              "status": "Created",
+              "code": 201,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Location",
+                  "value": "http://localhost:8080/api/buckets/3"
+                },
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "X-XSS-Protection",
+                  "value": "1; mode=block"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, no-store, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "key": "Expires",
+                  "value": "0"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Transfer-Encoding",
+                  "value": "chunked"
+                },
+                {
+                  "key": "Date",
+                  "value": "Wed, 05 Jan 2022 18:59:44 GMT"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=60"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"id\": 3,\n    \"name\": \"Category 1\",\n    \"color\": \"#FFFFF\",\n    \"icon\": null\n}"
+            }
+          ]
         }
       ],
       "id": "86bc0b43-07d2-42bc-8e6b-e53f4f4718d5"
@@ -840,7 +937,7 @@
   ],
   "variable": [
     {
-      "id": "6193822b-40d6-455c-8038-10e2b7b87f8c",
+      "id": "ae12f8c3-4c42-4560-b993-3eb1c7c3f514",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
