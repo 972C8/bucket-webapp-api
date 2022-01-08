@@ -740,7 +740,7 @@
       "id": "d94ae066-a000-4b06-8834-a7c94ec68192"
     },
     {
-      "name": "New Folder",
+      "name": "locations",
       "item": [],
       "id": "4d230e66-5fe6-44d4-a397-4e08e8592e7e"
     },
@@ -789,7 +789,7 @@
   ],
   "variable": [
     {
-      "id": "df077f13-243e-444c-8ee7-5f73fa7e733f",
+      "id": "b7c6e326-a3df-4178-b56f-1c6df5bb06a4",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
