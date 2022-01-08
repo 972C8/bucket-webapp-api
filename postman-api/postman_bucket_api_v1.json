@@ -878,7 +878,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"title\": \"{{title}}\",\r\n    \"description\": \"{{description}}\",\r\n    \"completed\": {{completed}},\r\n    \"bucket\": {\r\n        \"id\": {{bucketID}}\r\n    },\r\n}",
+              "raw": "{\r\n    \"title\": \"{{title}}\",\r\n    \"description\": \"{{description}}\",\r\n    \"completed\": {{completed}},\r\n    \"bucket\": {\r\n        \"id\": {{bucketID}}\r\n    }\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -937,7 +937,7 @@
   ],
   "variable": [
     {
-      "id": "9b97f612-82e5-4eb5-9925-19fc4fc54dd7",
+      "id": "40ead80f-ae9b-4d92-af6d-756b112021df",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
