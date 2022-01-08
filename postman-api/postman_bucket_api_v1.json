@@ -628,28 +628,6 @@
           "response": []
         },
         {
-          "name": "Create label Copy",
-          "id": "8782ca5d-559b-4387-8572-6122a38f95d3",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Hiking\",\r\n    \"color\": \"#FFFFF\"\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": "{{baseUrl}}/api/labels"
-          },
-          "response": []
-        },
-        {
           "name": "Get label by id",
           "id": "44ede9af-6448-4ada-9985-47326467c30d",
           "protocolProfileBehavior": {
@@ -910,6 +888,28 @@
             "url": "{{baseUrl}}/api/bucket-items"
           },
           "response": []
+        },
+        {
+          "name": "Create label Copy",
+          "id": "8782ca5d-559b-4387-8572-6122a38f95d3",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Hiking\",\r\n    \"color\": \"#FFFFF\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "{{baseUrl}}/api/labels"
+          },
+          "response": []
         }
       ],
       "id": "cd0f0d60-1024-4088-8cfb-994354cc8e31"
@@ -959,7 +959,7 @@
   ],
   "variable": [
     {
-      "id": "c56b8a6a-2fe2-4ae4-b444-a41911f7c3ce",
+      "id": "18cdb67f-1eb7-4e33-9a16-2531395c9847",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
