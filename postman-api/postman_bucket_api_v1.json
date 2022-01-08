@@ -297,7 +297,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseUrl}}/api/bucket-items?limit=4",
+              "raw": "{{baseUrl}}/api/bucket-items",
               "host": [
                 "{{baseUrl}}"
               ],
@@ -314,7 +314,7 @@
                 },
                 {
                   "key": "bucketId",
-                  "value": "10",
+                  "value": "4",
                   "disabled": true
                 },
                 {
@@ -325,8 +325,8 @@
                 },
                 {
                   "key": "limit",
-                  "value": "4",
-                  "type": "default"
+                  "value": "10",
+                  "disabled": true
                 }
               ]
             }
@@ -871,7 +871,7 @@
   ],
   "variable": [
     {
-      "id": "6e6835ca-ecdc-4949-83ae-8c8524199ef9",
+      "id": "77cfce87-7d8a-411b-9697-2b660bf9d7ee",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
