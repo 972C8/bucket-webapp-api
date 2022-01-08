@@ -823,7 +823,7 @@
           "response": []
         },
         {
-          "name": "Edit bucket",
+          "name": "Edit location",
           "id": "688dedee-8c2f-49bc-a7f0-20c41cf09123",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -909,7 +909,7 @@
   ],
   "variable": [
     {
-      "id": "a739010f-cca7-48f3-83da-0bf445e5088a",
+      "id": "f1bb0a83-cb5f-4646-bc0b-b03acdb8bdc2",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
