@@ -895,7 +895,85 @@
               ]
             }
           },
-          "response": []
+          "response": [
+            {
+              "id": "ff093811-9f46-4059-89cf-2967014a2c55",
+              "name": "Get bucket by id",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/buckets/:bucket-id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "buckets",
+                    ":bucket-id"
+                  ],
+                  "variable": [
+                    {
+                      "key": "bucket-id",
+                      "value": "9"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "X-XSS-Protection",
+                  "value": "1; mode=block"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, no-store, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "key": "Expires",
+                  "value": "0"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Transfer-Encoding",
+                  "value": "chunked"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 08 Jan 2022 15:28:07 GMT"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=60"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"id\": 9,\n    \"name\": \"Category 1\",\n    \"color\": \"#FFFFF\",\n    \"icon\": \"apple\"\n}"
+            }
+          ]
         },
         {
           "name": "Get image of bucket item by item id",
@@ -1280,7 +1358,7 @@
   ],
   "variable": [
     {
-      "id": "b5e306b7-c75a-4229-a9e3-adf65a5c1c2f",
+      "id": "6b9e9444-5a9e-4d01-a341-808fd1af8de0",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
