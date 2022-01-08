@@ -437,7 +437,7 @@
           ]
         },
         {
-          "name": "Upload new  imagefor bucket item",
+          "name": "Upload new  image for bucket item",
           "id": "5314cf18-156f-48b7-9d7c-b55ca59a5d3f",
           "protocolProfileBehavior": {
             "disableBodyPruning": true,
@@ -812,7 +812,7 @@
   ],
   "variable": [
     {
-      "id": "ca366215-8e84-4777-89ee-938827999130",
+      "id": "f2aa7a16-161a-489d-a60a-5705dad95cd4",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
