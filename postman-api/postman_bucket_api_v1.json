@@ -803,20 +803,19 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "{{baseUrl}}/api/buckets/:bucket-id",
+              "raw": "{{baseUrl}}/api/locations/:location-id",
               "host": [
                 "{{baseUrl}}"
               ],
               "path": [
                 "api",
-                "buckets",
-                ":bucket-id"
+                "locations",
+                ":location-id"
               ],
               "variable": [
                 {
-                  "id": "ab24da1c-5894-4a48-9691-ce120fd04ee5",
-                  "key": "bucket-id",
-                  "value": "2"
+                  "key": "location-id",
+                  "value": null
                 }
               ]
             }
@@ -871,7 +870,7 @@
   ],
   "variable": [
     {
-      "id": "c02cfc9f-88e1-485b-891f-bdd6c32bf6fa",
+      "id": "efde2388-a650-44ff-ab0e-706786cc05a7",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
