@@ -821,44 +821,6 @@
             }
           },
           "response": []
-        },
-        {
-          "name": "Edit location",
-          "id": "688dedee-8c2f-49bc-a7f0-20c41cf09123",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "PUT",
-            "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"name\": \"Category 1 NEW\",\r\n    \"color\": \"#FFFFF NEW\"\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": {
-              "raw": "{{baseUrl}}/api/locations/:location-id",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "locations",
-                ":location-id"
-              ],
-              "variable": [
-                {
-                  "key": "location-id",
-                  "value": "2"
-                }
-              ]
-            }
-          },
-          "response": []
         }
       ],
       "id": "4d230e66-5fe6-44d4-a397-4e08e8592e7e"
@@ -908,7 +870,7 @@
   ],
   "variable": [
     {
-      "id": "8b806f84-11a0-4060-b964-5a8d6cc4d392",
+      "id": "5450a1e9-2252-4e65-b955-09b2cb782b40",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
