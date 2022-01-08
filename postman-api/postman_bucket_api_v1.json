@@ -280,7 +280,7 @@
               "variable": [
                 {
                   "key": "item-id",
-                  "value": "6"
+                  "value": "3"
                 }
               ]
             }
@@ -773,7 +773,7 @@
   ],
   "variable": [
     {
-      "id": "11df3783-7283-464b-b743-40dcaaec0e0a",
+      "id": "d063eeea-f143-4154-b1e0-5652bb0ec060",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
