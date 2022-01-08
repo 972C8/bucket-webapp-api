@@ -741,7 +741,21 @@
     },
     {
       "name": "locations",
-      "item": [],
+      "item": [
+        {
+          "name": "New Request",
+          "id": "3bce2d7f-0767-4db0-9d9d-cca4b2c030e3",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
+        }
+      ],
       "id": "4d230e66-5fe6-44d4-a397-4e08e8592e7e"
     },
     {
@@ -789,7 +803,7 @@
   ],
   "variable": [
     {
-      "id": "b7c6e326-a3df-4178-b56f-1c6df5bb06a4",
+      "id": "a721743c-0480-46a0-aa4c-e74a9e1986d1",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
