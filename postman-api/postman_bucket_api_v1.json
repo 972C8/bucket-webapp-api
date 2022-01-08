@@ -890,7 +890,7 @@
           "response": []
         },
         {
-          "name": "Create label Copy",
+          "name": "Create label",
           "id": "8782ca5d-559b-4387-8572-6122a38f95d3",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -959,7 +959,7 @@
   ],
   "variable": [
     {
-      "id": "bc70bb01-4eb1-45fb-a457-3f2aae0ea070",
+      "id": "0bcc9705-cb54-413a-839c-fe350be10b9a",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
