@@ -752,13 +752,14 @@
             "method": "POST",
             "header": [],
             "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"address\": \"Zurich\"\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "address",
+                  "value": "Tellstrasse 25, 5000 Aarau, Switzerland",
+                  "type": "default"
                 }
-              }
+              ]
             },
             "url": "{{baseUrl}}/api/locations"
           },
@@ -870,7 +871,7 @@
   ],
   "variable": [
     {
-      "id": "7ec21904-ba6a-4efd-98a8-4b31708ef3c1",
+      "id": "f1ad2e50-f733-4d46-8446-abd8b2b2589c",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
