@@ -763,6 +763,36 @@
             "url": "{{baseUrl}}/api/locations"
           },
           "response": []
+        },
+        {
+          "name": "Get label by id",
+          "id": "9fb91915-3adc-4afe-a5e6-12ebf52651b9",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/labels/:label-id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "labels",
+                ":label-id"
+              ],
+              "variable": [
+                {
+                  "id": "f9c56206-864d-4d20-80a3-9eb3981bf584",
+                  "key": "label-id",
+                  "value": "3"
+                }
+              ]
+            }
+          },
+          "response": []
         }
       ],
       "id": "4d230e66-5fe6-44d4-a397-4e08e8592e7e"
@@ -812,7 +842,7 @@
   ],
   "variable": [
     {
-      "id": "f2aa7a16-161a-489d-a60a-5705dad95cd4",
+      "id": "c68b96dc-5bd2-4768-a4f2-2b3273f8e04c",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
