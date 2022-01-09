@@ -1743,6 +1743,115 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "Get location by id Copy",
+          "id": "3c4352b2-6e05-4737-b4a5-34ad7538d815",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/locations/:location-id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "locations",
+                ":location-id"
+              ],
+              "variable": [
+                {
+                  "id": "10a43194-a2cb-4790-8eea-608e3d51f504",
+                  "key": "location-id",
+                  "value": "11"
+                }
+              ]
+            },
+            "description": "Returns the address in url encoded format and ready to be used by google maps"
+          },
+          "response": [
+            {
+              "id": "efb2bf65-3f22-4d25-89b8-d20d1ff60f79",
+              "name": "Get location by id",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/locations/:location-id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "locations",
+                    ":location-id"
+                  ],
+                  "variable": [
+                    {
+                      "key": "location-id",
+                      "value": "11"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "X-XSS-Protection",
+                  "value": "1; mode=block"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, no-store, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "key": "Expires",
+                  "value": "0"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Transfer-Encoding",
+                  "value": "chunked"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 08 Jan 2022 15:30:45 GMT"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=60"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"id\": 11,\n    \"address\": \"Tellstrasse+25%2C+5000+Aarau%2C+Switzerland\",\n    \"googleMapsUrl\": \"https://www.google.com/maps/place/\"\n}"
+            }
+          ]
         }
       ],
       "id": "4d230e66-5fe6-44d4-a397-4e08e8592e7e",
@@ -1794,7 +1903,7 @@
   ],
   "variable": [
     {
-      "id": "bc918c75-dbd4-47f3-a3d1-5e0606c31208",
+      "id": "593001ad-4f87-4bd8-89b0-a18c9c1b33db",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
