@@ -1727,7 +1727,69 @@
             "url": "{{baseUrl}}/api/locations/",
             "description": "Returns the address in url encoded format and ready to be used by google maps"
           },
-          "response": []
+          "response": [
+            {
+              "id": "cac9a942-8eee-4378-82f6-fbc398e8d8fb",
+              "name": "Get locations",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": "{{baseUrl}}/api/locations/"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "X-XSS-Protection",
+                  "value": "1; mode=block"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache, no-store, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "key": "Expires",
+                  "value": "0"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "Transfer-Encoding",
+                  "value": "chunked"
+                },
+                {
+                  "key": "Date",
+                  "value": "Sun, 09 Jan 2022 13:33:51 GMT"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=60"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "[\n    {\n        \"id\": 2,\n        \"address\": \"Tellstrasse+25%2C+5000+Aarau%2C+Switzerland\",\n        \"googleMapsUrl\": \"https://www.google.com/maps/place/\"\n    }\n]"
+            }
+          ]
         },
         {
           "name": "Delete location",
@@ -1808,7 +1870,7 @@
   ],
   "variable": [
     {
-      "id": "72ca9f65-c127-4eb7-b975-2b837cdd289a",
+      "id": "958d1282-4eb9-4882-8942-f1f87031a419",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
