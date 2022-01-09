@@ -1736,7 +1736,6 @@
               ],
               "variable": [
                 {
-                  "id": "10a43194-a2cb-4790-8eea-608e3d51f504",
                   "key": "location-id",
                   "value": "11"
                 }
@@ -1825,7 +1824,7 @@
   ],
   "variable": [
     {
-      "id": "46982b8a-6027-4d04-8583-449e5109f167",
+      "id": "ee73b890-e0c2-43a6-a0d7-d362bb9e5994",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
