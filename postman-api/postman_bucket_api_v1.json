@@ -1716,7 +1716,7 @@
           ]
         },
         {
-          "name": "Get location by id Copy",
+          "name": "Get locations",
           "id": "3c4352b2-6e05-4737-b4a5-34ad7538d815",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -1824,7 +1824,7 @@
   ],
   "variable": [
     {
-      "id": "ee73b890-e0c2-43a6-a0d7-d362bb9e5994",
+      "id": "4c21ff2f-2354-48e8-9089-63beab7d9d6f",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
