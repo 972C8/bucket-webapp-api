@@ -1724,23 +1724,7 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {
-              "raw": "{{baseUrl}}/api/locations/:location-id",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "locations",
-                ":location-id"
-              ],
-              "variable": [
-                {
-                  "key": "location-id",
-                  "value": "11"
-                }
-              ]
-            },
+            "url": "{{baseUrl}}/api/locations/",
             "description": "Returns the address in url encoded format and ready to be used by google maps"
           },
           "response": []
@@ -1824,7 +1808,7 @@
   ],
   "variable": [
     {
-      "id": "4c21ff2f-2354-48e8-9089-63beab7d9d6f",
+      "id": "72ca9f65-c127-4eb7-b975-2b837cdd289a",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
