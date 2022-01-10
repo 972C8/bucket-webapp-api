@@ -107,7 +107,7 @@
           ]
         },
         {
-          "name": "Validate",
+          "name": "Get XSRF Token",
           "event": [
             {
               "listen": "test",
@@ -1993,7 +1993,7 @@
   ],
   "variable": [
     {
-      "id": "d47c6f1d-9568-43f0-bf8c-26dad5336b04",
+      "id": "3d50db98-8c33-4224-9706-0a4bd0660737",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
