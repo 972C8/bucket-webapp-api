@@ -1922,11 +1922,10 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "f13f59c1-ad70-408c-8245-a504ff5252ff",
+        "id": "cb5532f2-44c4-4a6b-b149-07f8584e68eb",
         "type": "text/javascript",
         "exec": [
           "const token = pm.environment.get('xsrf-token')",
-          "console.log(token)",
           "",
           "if (token) {",
           "  pm.request.addHeader({",
@@ -1940,7 +1939,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "d397265e-5081-4b8a-b483-f9f48f6c480f",
+        "id": "f324aefb-b022-48c8-9dbb-5e8fb456807c",
         "type": "text/javascript",
         "exec": [
           "const token = pm.cookies.get('XSRF-TOKEN')",
@@ -1954,7 +1953,7 @@
   ],
   "variable": [
     {
-      "id": "4595c622-50c1-4d10-b24a-147dca2494d9",
+      "id": "c6c3b4d8-bf5d-4449-b05c-e1daf1f6008d",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
