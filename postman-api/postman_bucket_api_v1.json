@@ -1828,7 +1828,7 @@
       "name": "user",
       "item": [
         {
-          "name": "New Request",
+          "name": "{{}}",
           "id": "a6aaab20-511b-496d-ba0a-7e1949bc8b35",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -1889,7 +1889,7 @@
   ],
   "variable": [
     {
-      "id": "e8e39df6-6362-4b1b-9e6c-81dfcfe1c5ff",
+      "id": "b3d6342f-3a9f-4e20-b61f-59d9f047f8c6",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
