@@ -371,6 +371,34 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "Login Copy",
+          "id": "eeddad14-a4fb-40b0-bde3-e3dcb3368c39",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-XSRF-TOKEN",
+                "value": "{{xsrf-token}}",
+                "type": "default"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"demo4@bucket.app\",\r\n  \"password\": \"QRcF94HU+1$\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "{{baseUrl}}/login"
+          },
+          "response": []
         }
       ],
       "id": "e6e2f295-ec06-4dfd-b1b0-5596a4d8fd13",
@@ -1924,7 +1952,7 @@
   ],
   "variable": [
     {
-      "id": "34642cd9-622f-4d4a-a2ee-3eabbc8c13e9",
+      "id": "3155b7d5-0da3-4371-8b5a-2dbf1dc6e20d",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
