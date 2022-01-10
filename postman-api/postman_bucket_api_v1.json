@@ -106,7 +106,7 @@
                 }
               }
             },
-            "url": "{{baseUrl}}/register"
+            "url": "{{baseUrl}}/user/register"
           },
           "response": [
             {
@@ -1953,7 +1953,7 @@
   ],
   "variable": [
     {
-      "id": "c6c3b4d8-bf5d-4449-b05c-e1daf1f6008d",
+      "id": "581367de-f5a3-4ef6-aaf5-0f33ff46a237",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
