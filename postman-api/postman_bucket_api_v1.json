@@ -1918,11 +1918,18 @@
       "response": []
     }
   ],
+  "auth": {
+    "type": "basic",
+    "basic": {
+      "password": "{{auth_password}}",
+      "username": "{{auth_username}}"
+    }
+  },
   "event": [
     {
       "listen": "prerequest",
       "script": {
-        "id": "cb5532f2-44c4-4a6b-b149-07f8584e68eb",
+        "id": "2bc4de1c-1d76-4886-b5f8-366ace1d15a1",
         "type": "text/javascript",
         "exec": [
           "const token = pm.environment.get('xsrf-token')",
@@ -1939,7 +1946,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "f324aefb-b022-48c8-9dbb-5e8fb456807c",
+        "id": "74480877-399f-49b7-b2c9-52fc2f4dfff3",
         "type": "text/javascript",
         "exec": [
           "const token = pm.cookies.get('XSRF-TOKEN')",
@@ -1953,7 +1960,7 @@
   ],
   "variable": [
     {
-      "id": "581367de-f5a3-4ef6-aaf5-0f33ff46a237",
+      "id": "e004d269-197c-4c26-9f3c-286b75e1c916",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
