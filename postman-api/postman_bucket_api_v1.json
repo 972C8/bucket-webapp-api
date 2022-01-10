@@ -1828,19 +1828,6 @@
       "name": "user",
       "item": [
         {
-          "name": "{{}}",
-          "id": "a6aaab20-511b-496d-ba0a-7e1949bc8b35",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": null
-          },
-          "response": []
-        },
-        {
           "name": "Create avatar Copy",
           "id": "94ad78b8-aa26-4d30-91f0-99893fa09424",
           "protocolProfileBehavior": {
@@ -1986,7 +1973,7 @@
   ],
   "variable": [
     {
-      "id": "3d1034d6-cb66-4a5e-9438-a27cba33a275",
+      "id": "450cfe05-b4f8-4919-bf17-7c960862ca95",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
