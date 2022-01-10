@@ -43,13 +43,7 @@
           },
           "request": {
             "method": "POST",
-            "header": [
-              {
-                "key": "X-XSRF-TOKEN",
-                "value": "{{xsrf-token}}",
-                "type": "default"
-              }
-            ],
+            "header": [],
             "body": {
               "mode": "raw",
               "raw": "{\r\n  \"email\": \"{{auth_username}}\",\r\n  \"password\": \"{{auth_password}}\"\r\n}",
@@ -1923,10 +1917,10 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "14c65934-1614-49a3-b836-9917ee1cf716",
+        "id": "1e90c573-d454-4adf-a50e-f301d8d59c93",
         "type": "text/javascript",
         "exec": [
-          "pm.request.headers.add({",
+          "pm.request.addHeader({",
           "  \"X-XSRF-TOKEN\": pm.environment.get(\"xsrf-token\")",
           "})"
         ]
@@ -1935,7 +1929,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "d8f657dc-f18e-415b-a79b-daf86bb1c8a4",
+        "id": "182f7bda-95be-47a9-987a-e2010e384e84",
         "type": "text/javascript",
         "exec": [
           ""
@@ -1945,7 +1939,7 @@
   ],
   "variable": [
     {
-      "id": "2a1633c5-e693-4a59-876c-b000a6455251",
+      "id": "93e71c43-fb47-45ec-9564-bbdcc65e4b86",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
