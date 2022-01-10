@@ -86,85 +86,7 @@
             "header": [],
             "url": "{{baseUrl}}/profile"
           },
-          "response": [
-            {
-              "id": "95244e21-a4d0-4741-a4de-aad5aeff15c4",
-              "name": "Get avatar by id",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/api/avatars/:avatar-id",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "api",
-                    "avatars",
-                    ":avatar-id"
-                  ],
-                  "variable": [
-                    {
-                      "key": "avatar-id",
-                      "value": "1"
-                    }
-                  ]
-                }
-              },
-              "status": "OK",
-              "code": 200,
-              "_postman_previewlanguage": "json",
-              "header": [
-                {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "1; mode=block"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
-                  "key": "Content-Type",
-                  "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Sat, 08 Jan 2022 15:18:13 GMT"
-                },
-                {
-                  "key": "Keep-Alive",
-                  "value": "timeout=60"
-                },
-                {
-                  "key": "Connection",
-                  "value": "keep-alive"
-                }
-              ],
-              "cookie": [],
-              "responseTime": null,
-              "body": "{\n    \"id\": 1,\n    \"name\": \"user\",\n    \"email\": \"user@user.com\",\n    \"remember\": null\n}"
-            }
-          ]
+          "response": []
         },
         {
           "name": "Create avatar",
@@ -2025,7 +1947,7 @@
   ],
   "variable": [
     {
-      "id": "59406540-11fa-4e30-a3ad-562c4ebb7f9f",
+      "id": "2dc5ba39-d179-409b-b8b6-8d0b469cdf32",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
