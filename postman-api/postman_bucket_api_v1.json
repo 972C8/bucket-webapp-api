@@ -111,6 +111,34 @@
           ]
         },
         {
+          "name": "Login",
+          "id": "93f27b21-4ca6-4a62-98d3-188981e72631",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-XSRF-TOKEN",
+                "value": "{{xsrf-token}}",
+                "type": "default"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "{{baseUrl}}/login"
+          },
+          "response": []
+        },
+        {
           "name": "Create avatar",
           "id": "2b7d2302-c72f-4911-8698-5c77e716b127",
           "protocolProfileBehavior": {
@@ -206,34 +234,6 @@
               "body": "{\n    \"id\": 5,\n    \"name\": \"user2\",\n    \"email\": \"user2@user.com\",\n    \"remember\": null\n}"
             }
           ]
-        },
-        {
-          "name": "Login",
-          "id": "93f27b21-4ca6-4a62-98d3-188981e72631",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "POST",
-            "header": [
-              {
-                "key": "X-XSRF-TOKEN",
-                "value": "{{xsrf-token}}",
-                "type": "default"
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": "{{baseUrl}}/login"
-          },
-          "response": []
         },
         {
           "name": "Upload new profile picture (for current avatar)",
@@ -1999,7 +1999,7 @@
   ],
   "variable": [
     {
-      "id": "b8fc99a4-4c8d-4b7b-b871-cead45bd64a5",
+      "id": "60a7551d-57dd-4489-8d96-e88981a6e252",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
