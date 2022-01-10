@@ -107,7 +107,7 @@
           ]
         },
         {
-          "name": "Create avatar Copy",
+          "name": "Validate",
           "id": "6bbf7602-33b9-42e9-a3b2-7ecd3f4d56fa",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -1989,7 +1989,7 @@
   ],
   "variable": [
     {
-      "id": "460392bc-7f2e-4aa8-94fe-c94ccf8fc55b",
+      "id": "b0bb0b40-4a26-4287-b6e2-fd5996a29214",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
