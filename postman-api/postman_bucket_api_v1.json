@@ -1825,6 +1825,11 @@
       "description": "API requests concerning the location where the bucket item takes place (assigned to bucket items)"
     },
     {
+      "name": "New Folder",
+      "item": [],
+      "id": "9cc1c7c6-2049-4e57-b187-2eba550deaf4"
+    },
+    {
       "name": "Test connection",
       "id": "1b36492c-5bb5-4d91-b3d5-e55395c03439",
       "protocolProfileBehavior": {
@@ -1870,7 +1875,7 @@
   ],
   "variable": [
     {
-      "id": "0b8b42b9-d354-4663-963e-c42b129400d8",
+      "id": "002ec66b-9c92-48e0-b8f9-ebee96371395",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
