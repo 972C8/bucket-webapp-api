@@ -108,23 +108,27 @@
         },
         {
           "name": "Validate",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "69930ee6-e71e-4ded-ac49-d058fd86cc07",
+                "exec": [
+                  "var xsrfCookie = postman.getResponseCookie(\"XSRF-TOKEN\");\r",
+                  "postman.setEnvironmentVariable(\"xsrf-token\", xsrfCookie.value);"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
           "id": "6bbf7602-33b9-42e9-a3b2-7ecd3f4d56fa",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
           "request": {
-            "method": "POST",
+            "method": "GET",
             "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"name\": \"user2\",\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": "{{baseUrl}}/register"
+            "url": "{{baseUrl}}/login"
           },
           "response": [
             {
@@ -1989,7 +1993,7 @@
   ],
   "variable": [
     {
-      "id": "b0bb0b40-4a26-4287-b6e2-fd5996a29214",
+      "id": "d47c6f1d-9568-43f0-bf8c-26dad5336b04",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
