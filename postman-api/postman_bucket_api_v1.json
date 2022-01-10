@@ -74,7 +74,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"user2\",\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
+              "raw": "{\r\n    \"name\": \"demo user\",\r\n    \"email\": \"{{auth_username}}\",\r\n    \"password\": \"{{auth_password}}\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1924,7 +1924,7 @@
   ],
   "variable": [
     {
-      "id": "e0320390-0034-4028-aaa7-6ff83bb196bb",
+      "id": "34642cd9-622f-4d4a-a2ee-3eabbc8c13e9",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
