@@ -1828,7 +1828,7 @@
       "name": "user",
       "item": [
         {
-          "name": "Create avatar Copy",
+          "name": "Register",
           "id": "94ad78b8-aa26-4d30-91f0-99893fa09424",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -1973,7 +1973,7 @@
   ],
   "variable": [
     {
-      "id": "d349cb12-a53d-4671-9723-4ad40aa47b26",
+      "id": "e8b1a62a-afd5-4c8e-be4b-2ca12227998a",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
