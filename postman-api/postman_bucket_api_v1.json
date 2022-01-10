@@ -1917,11 +1917,12 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "1e90c573-d454-4adf-a50e-f301d8d59c93",
+        "id": "27835489-e45b-46a3-ae4a-25b109cf7e67",
         "type": "text/javascript",
         "exec": [
           "pm.request.addHeader({",
-          "  \"X-XSRF-TOKEN\": pm.environment.get(\"xsrf-token\")",
+          "  key: \"X-XSRF-TOKEN\",",
+          "  value: pm.environment.get(\"xsrf-token\")",
           "})"
         ]
       }
@@ -1929,7 +1930,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "182f7bda-95be-47a9-987a-e2010e384e84",
+        "id": "0c0424a1-f364-4f2b-8e99-ebcb33c1e3ac",
         "type": "text/javascript",
         "exec": [
           ""
@@ -1939,7 +1940,7 @@
   ],
   "variable": [
     {
-      "id": "9799000a-5ac5-4841-adf4-beb137f571c3",
+      "id": "b26f8c25-4505-40ef-8b8b-9feffe0819d2",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
