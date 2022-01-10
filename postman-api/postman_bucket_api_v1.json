@@ -17,8 +17,7 @@
               "script": {
                 "id": "69930ee6-e71e-4ded-ac49-d058fd86cc07",
                 "exec": [
-                  "var xsrfCookie = postman.getResponseCookie(\"XSRF-TOKEN\");\r",
-                  "pm.environment.set(\"xsrf-token\", xsrfCookie.value);"
+                  ""
                 ],
                 "type": "text/javascript"
               }
@@ -2044,7 +2043,7 @@
   ],
   "variable": [
     {
-      "id": "e8f834ca-0e79-47ba-8666-a82722a7d263",
+      "id": "48b41c6f-4839-4cdd-a2be-6abb895f7637",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
