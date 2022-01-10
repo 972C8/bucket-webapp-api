@@ -2014,18 +2014,11 @@
       "response": []
     }
   ],
-  "auth": {
-    "type": "basic",
-    "basic": {
-      "password": "{{auth_password}}",
-      "username": "{{auth_username}}"
-    }
-  },
   "event": [
     {
       "listen": "prerequest",
       "script": {
-        "id": "27835489-e45b-46a3-ae4a-25b109cf7e67",
+        "id": "78372cf8-ab21-4c07-854a-d572cf97b467",
         "type": "text/javascript",
         "exec": [
           "pm.request.addHeader({",
@@ -2038,7 +2031,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "0c0424a1-f364-4f2b-8e99-ebcb33c1e3ac",
+        "id": "e0eb9139-7d52-4969-97e2-6235672dd57f",
         "type": "text/javascript",
         "exec": [
           ""
@@ -2048,7 +2041,7 @@
   ],
   "variable": [
     {
-      "id": "fad01daf-a701-4996-aab9-2632eeb211bc",
+      "id": "fe5c04f2-c10a-4686-8115-c1f3b6514b2c",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
