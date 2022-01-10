@@ -1929,21 +1929,20 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "2787a480-b05b-47a1-884b-72eb8161d703",
+        "id": "3ba6d5b1-72c3-4588-9604-a6f7e91b4a52",
         "type": "text/javascript",
         "exec": [
           "const remote = pm.environment.get('remote')",
           "",
           "if (remote == 'true') {",
+          "    const token = pm.environment.get('xsrf-token')",
           "",
-          "const token = pm.environment.get('xsrf-token')",
-          "",
-          "if (token) {",
-          "  pm.request.addHeader({",
-          "    key: \"X-XSRF-TOKEN\",",
-          "    value: token",
-          "  })",
-          "}",
+          "    if (token) {",
+          "    pm.request.addHeader({",
+          "        key: \"X-XSRF-TOKEN\",",
+          "        value: token",
+          "    })",
+          "    }",
           "}"
         ]
       }
@@ -1951,13 +1950,18 @@
     {
       "listen": "test",
       "script": {
-        "id": "f565f2d6-239c-4682-92da-9a36e14bfd5c",
+        "id": "75aec8fc-c3b4-4611-80e9-da0cdcec2b5d",
         "type": "text/javascript",
         "exec": [
-          "const token = pm.cookies.get('XSRF-TOKEN')",
+          "const remote = pm.environment.get('remote')",
           "",
-          "if (token) {",
-          "  pm.environment.set(\"xsrf-token\", token)",
+          "if (remote == 'true') {",
+          "    const token = pm.cookies.get('XSRF-TOKEN')",
+          "",
+          "    if (token) {",
+          "    pm.environment.set(\"xsrf-token\", token)",
+          "    }",
+          "",
           "}"
         ]
       }
@@ -1965,7 +1969,7 @@
   ],
   "variable": [
     {
-      "id": "3bc1b609-ddd9-4752-bb57-57cc2711aae5",
+      "id": "62ba430b-f2ae-4388-b346-632ec0c5044b",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
