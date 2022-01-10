@@ -1922,7 +1922,7 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "38ad49d2-1d73-4c2a-b2ae-a2f7e1c7c6ec",
+        "id": "985b8cea-0e49-4da8-8c5d-d66d07a219f4",
         "type": "text/javascript",
         "exec": [
           "pm.request.addHeader({",
@@ -1935,11 +1935,11 @@
     {
       "listen": "test",
       "script": {
-        "id": "7330ee11-12db-44a6-b6b9-8587c4c078c6",
+        "id": "1503b25a-ad10-452c-8ff3-ac9f9f9a252e",
         "type": "text/javascript",
         "exec": [
-          "var xsrfCookie = postman.getResponseCookie(\"XSRF-TOKEN\");",
-          "pm.environment.set(\"xsrf-token\", xsrfCookie.value);",
+          "//var xsrfCookie = postman.getResponseCookie(\"XSRF-TOKEN\");",
+          "//pm.environment.set(\"xsrf-token\", xsrfCookie.value);",
           ""
         ]
       }
@@ -1947,7 +1947,7 @@
   ],
   "variable": [
     {
-      "id": "28a8e58c-3516-4130-a92f-ef19320d87e5",
+      "id": "282c6931-7566-40b3-91aa-b287d2cf03e6",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
