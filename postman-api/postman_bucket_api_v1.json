@@ -70,7 +70,7 @@
             "disableBodyPruning": true
           },
           "request": {
-            "method": "POST",
+            "method": "GET",
             "header": [
               {
                 "key": "X-XSRF-TOKEN",
@@ -78,16 +78,7 @@
                 "type": "default"
               }
             ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n  \"email\": \"demo4@bucket.app\",\r\n  \"password\": \"QRcF94HU+1$\"\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": "{{baseUrl}}/login"
+            "url": "{{baseUrl}}/logout"
           },
           "response": []
         },
@@ -1952,7 +1943,7 @@
   ],
   "variable": [
     {
-      "id": "b24c5efb-51c6-4f5f-9eea-6e98d01309ae",
+      "id": "046b32b3-d50b-4884-b9c6-593f66037cb5",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
