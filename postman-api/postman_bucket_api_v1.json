@@ -10,8 +10,8 @@
       "name": "avatars",
       "item": [
         {
-          "name": "Create avatar",
-          "id": "2b7d2302-c72f-4911-8698-5c77e716b127",
+          "name": "Create avatar Copy",
+          "id": "93f27b21-4ca6-4a62-98d3-188981e72631",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -31,7 +31,7 @@
           },
           "response": [
             {
-              "id": "a3748b5a-bc55-462e-9d56-229b8de7b345",
+              "id": "4ef95561-0e12-4401-9af8-4ed5a4de953c",
               "name": "Create avatar",
               "originalRequest": {
                 "method": "POST",
@@ -107,8 +107,8 @@
           ]
         },
         {
-          "name": "Create avatar Copy",
-          "id": "93f27b21-4ca6-4a62-98d3-188981e72631",
+          "name": "Create avatar",
+          "id": "2b7d2302-c72f-4911-8698-5c77e716b127",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -128,7 +128,7 @@
           },
           "response": [
             {
-              "id": "4ef95561-0e12-4401-9af8-4ed5a4de953c",
+              "id": "a3748b5a-bc55-462e-9d56-229b8de7b345",
               "name": "Create avatar",
               "originalRequest": {
                 "method": "POST",
@@ -1967,7 +1967,7 @@
   ],
   "variable": [
     {
-      "id": "15835c2a-bfb5-4bc8-8358-f22e9fa5f970",
+      "id": "44d9f6ac-270a-4c42-b147-1d9e849ad444",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
