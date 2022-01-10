@@ -77,7 +77,7 @@
           "response": []
         },
         {
-          "name": "Get avatar by id Copy",
+          "name": "Get profile",
           "id": "227e3820-561e-4379-963e-4da1a447ec6d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -2048,7 +2048,7 @@
   ],
   "variable": [
     {
-      "id": "458a9f5b-85f5-4842-b74b-33da406daa39",
+      "id": "fad01daf-a701-4996-aab9-2632eeb211bc",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
