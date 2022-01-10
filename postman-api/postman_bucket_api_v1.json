@@ -1845,7 +1845,7 @@
                 }
               }
             },
-            "url": "{{baseUrl}}/api/avatars"
+            "url": "{{baseUrl}}/user/register"
           },
           "response": [
             {
@@ -1973,7 +1973,7 @@
   ],
   "variable": [
     {
-      "id": "e8b1a62a-afd5-4c8e-be4b-2ca12227998a",
+      "id": "d016ff6b-6d87-4f5c-964c-f2093129c30d",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
