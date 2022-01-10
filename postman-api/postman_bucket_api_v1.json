@@ -1929,7 +1929,7 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "3ba6d5b1-72c3-4588-9604-a6f7e91b4a52",
+        "id": "298e33cc-5f1a-46e9-9d82-047a67db8ed4",
         "type": "text/javascript",
         "exec": [
           "const remote = pm.environment.get('remote')",
@@ -1938,11 +1938,22 @@
           "    const token = pm.environment.get('xsrf-token')",
           "",
           "    if (token) {",
-          "    pm.request.addHeader({",
-          "        key: \"X-XSRF-TOKEN\",",
-          "        value: token",
-          "    })",
+          "        pm.request.addHeader({",
+          "            key: \"X-XSRF-TOKEN\",",
+          "            value: token",
+          "        })",
           "    }",
+          "} else {",
+          "    const username = pm.environment.get('auth_username')",
+          "    const password = pm.environment.get('auth_password')",
+          "",
+          "    const base64 = btoa(`${username}:${password}`)",
+          "",
+          "    pm.request.addHeader({",
+          "        key: \"Authorization\",",
+          "        value: `Basic ${base64}`",
+          "    })",
+          "    ",
           "}"
         ]
       }
@@ -1950,7 +1961,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "75aec8fc-c3b4-4611-80e9-da0cdcec2b5d",
+        "id": "d45970e8-24ae-4961-8541-0f66697316c9",
         "type": "text/javascript",
         "exec": [
           "const remote = pm.environment.get('remote')",
@@ -1969,7 +1980,7 @@
   ],
   "variable": [
     {
-      "id": "62ba430b-f2ae-4388-b346-632ec0c5044b",
+      "id": "35a09eda-b326-4614-ba9c-3bd4d216be0f",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
