@@ -52,7 +52,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n  \"email\": \"demo4@bucket.app\",\r\n  \"password\": \"QRcF94HU+1$\"\r\n}",
+              "raw": "{\r\n  \"email\": \"{{auth_username}}\",\r\n  \"password\": \"{{auth_password}}\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1943,7 +1943,7 @@
   ],
   "variable": [
     {
-      "id": "046b32b3-d50b-4884-b9c6-593f66037cb5",
+      "id": "e6ca668c-b81b-458b-a482-4f3d52751e0a",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
