@@ -84,24 +84,7 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {
-              "raw": "{{baseUrl}}/api/avatars/:avatar-id",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "avatars",
-                ":avatar-id"
-              ],
-              "variable": [
-                {
-                  "id": "aa3154db-fd46-442b-a70f-65955b3ca60a",
-                  "key": "avatar-id",
-                  "value": "1"
-                }
-              ]
-            }
+            "url": "{{baseUrl}}/profile"
           },
           "response": [
             {
@@ -2042,7 +2025,7 @@
   ],
   "variable": [
     {
-      "id": "27532e1a-6ab0-4711-8d3d-80a9bfe236a9",
+      "id": "59406540-11fa-4e30-a3ad-562c4ebb7f9f",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
