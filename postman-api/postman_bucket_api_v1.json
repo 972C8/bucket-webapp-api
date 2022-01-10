@@ -107,7 +107,7 @@
           ]
         },
         {
-          "name": "Create avatar Copy",
+          "name": "Login",
           "id": "93f27b21-4ca6-4a62-98d3-188981e72631",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -1967,7 +1967,7 @@
   ],
   "variable": [
     {
-      "id": "90c68e76-44e8-4a31-99a6-2879b0dd9da2",
+      "id": "922cb27e-8f6d-479f-b1f0-4ddd2ade02cb",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
