@@ -1918,18 +1918,11 @@
       "response": []
     }
   ],
-  "auth": {
-    "type": "basic",
-    "basic": {
-      "password": "{{auth_password}}",
-      "username": "{{auth_username}}"
-    }
-  },
   "event": [
     {
       "listen": "prerequest",
       "script": {
-        "id": "298e33cc-5f1a-46e9-9d82-047a67db8ed4",
+        "id": "2edd0018-90bb-436f-acfc-b36ae1efb42e",
         "type": "text/javascript",
         "exec": [
           "const remote = pm.environment.get('remote')",
@@ -1961,7 +1954,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "d45970e8-24ae-4961-8541-0f66697316c9",
+        "id": "71d130c4-2eb4-465b-a8cd-1cafd3161ce6",
         "type": "text/javascript",
         "exec": [
           "const remote = pm.environment.get('remote')",
@@ -1980,7 +1973,7 @@
   ],
   "variable": [
     {
-      "id": "35a09eda-b326-4614-ba9c-3bd4d216be0f",
+      "id": "5f004cdb-8895-4439-9e47-58f912a82e6c",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
