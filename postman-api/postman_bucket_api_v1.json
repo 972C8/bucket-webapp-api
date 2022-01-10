@@ -1825,7 +1825,7 @@
       "description": "API requests concerning the location where the bucket item takes place (assigned to bucket items)"
     },
     {
-      "name": "New Folder",
+      "name": "user",
       "item": [],
       "id": "9cc1c7c6-2049-4e57-b187-2eba550deaf4"
     },
@@ -1875,7 +1875,7 @@
   ],
   "variable": [
     {
-      "id": "9e5f9745-b79d-418e-86f5-5c634996f96d",
+      "id": "ed48a23b-22bd-4623-b8ec-8c1d232e6614",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
