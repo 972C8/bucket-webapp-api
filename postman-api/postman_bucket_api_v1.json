@@ -1826,7 +1826,21 @@
     },
     {
       "name": "user",
-      "item": [],
+      "item": [
+        {
+          "name": "New Request",
+          "id": "a6aaab20-511b-496d-ba0a-7e1949bc8b35",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
+        }
+      ],
       "id": "9cc1c7c6-2049-4e57-b187-2eba550deaf4"
     },
     {
@@ -1875,7 +1889,7 @@
   ],
   "variable": [
     {
-      "id": "ed48a23b-22bd-4623-b8ec-8c1d232e6614",
+      "id": "ed8f0840-ffb1-4b57-b49e-039cb9845ec0",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
