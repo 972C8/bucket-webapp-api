@@ -1929,9 +1929,13 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "2bc4de1c-1d76-4886-b5f8-366ace1d15a1",
+        "id": "2787a480-b05b-47a1-884b-72eb8161d703",
         "type": "text/javascript",
         "exec": [
+          "const remote = pm.environment.get('remote')",
+          "",
+          "if (remote == 'true') {",
+          "",
           "const token = pm.environment.get('xsrf-token')",
           "",
           "if (token) {",
@@ -1939,6 +1943,7 @@
           "    key: \"X-XSRF-TOKEN\",",
           "    value: token",
           "  })",
+          "}",
           "}"
         ]
       }
@@ -1946,7 +1951,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "74480877-399f-49b7-b2c9-52fc2f4dfff3",
+        "id": "f565f2d6-239c-4682-92da-9a36e14bfd5c",
         "type": "text/javascript",
         "exec": [
           "const token = pm.cookies.get('XSRF-TOKEN')",
@@ -1960,7 +1965,7 @@
   ],
   "variable": [
     {
-      "id": "e004d269-197c-4c26-9f3c-286b75e1c916",
+      "id": "3bc1b609-ddd9-4752-bb57-57cc2711aae5",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
