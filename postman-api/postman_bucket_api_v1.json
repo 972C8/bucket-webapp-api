@@ -64,7 +64,7 @@
           "response": []
         },
         {
-          "name": "Login Copy",
+          "name": "Logout",
           "id": "eeddad14-a4fb-40b0-bde3-e3dcb3368c39",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -1952,7 +1952,7 @@
   ],
   "variable": [
     {
-      "id": "6937525c-79f2-4185-89a6-851ffa310ba5",
+      "id": "b24c5efb-51c6-4f5f-9eea-6e98d01309ae",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
