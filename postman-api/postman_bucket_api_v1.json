@@ -64,25 +64,6 @@
           "response": []
         },
         {
-          "name": "Logout",
-          "id": "eeddad14-a4fb-40b0-bde3-e3dcb3368c39",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [
-              {
-                "key": "X-XSRF-TOKEN",
-                "value": "{{xsrf-token}}",
-                "type": "default"
-              }
-            ],
-            "url": "{{baseUrl}}/logout"
-          },
-          "response": []
-        },
-        {
           "name": "Create avatar",
           "id": "2b7d2302-c72f-4911-8698-5c77e716b127",
           "protocolProfileBehavior": {
@@ -178,6 +159,25 @@
               "body": "{\n    \"id\": 5,\n    \"name\": \"user2\",\n    \"email\": \"user2@user.com\",\n    \"remember\": null\n}"
             }
           ]
+        },
+        {
+          "name": "Logout",
+          "id": "eeddad14-a4fb-40b0-bde3-e3dcb3368c39",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-XSRF-TOKEN",
+                "value": "{{xsrf-token}}",
+                "type": "default"
+              }
+            ],
+            "url": "{{baseUrl}}/logout"
+          },
+          "response": []
         },
         {
           "name": "Upload new profile picture (for current avatar)",
@@ -1943,7 +1943,7 @@
   ],
   "variable": [
     {
-      "id": "e6ca668c-b81b-458b-a482-4f3d52751e0a",
+      "id": "4abcc5f1-30cb-459d-817f-3c9720918c38",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
