@@ -306,86 +306,6 @@
           ]
         },
         {
-          "name": "Get profile picture of current avatar",
-          "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": "{{baseUrl}}/api/avatars/profile-picture"
-          },
-          "response": []
-        },
-        {
-          "name": "Edit avatar",
-          "id": "6d34c392-bcce-4d63-8fa2-0666c0b8899c",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "PUT",
-            "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"name\": \"user3\",\r\n    \"email\": \"user3@user.com\",\r\n    \"password\": \"password\"\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": {
-              "raw": "{{baseUrl}}/api/avatars/:avatar-id",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "avatars",
-                ":avatar-id"
-              ],
-              "variable": [
-                {
-                  "key": "avatar-id",
-                  "value": "1"
-                }
-              ]
-            }
-          },
-          "response": []
-        },
-        {
-          "name": "Delete avatar",
-          "id": "090d1aab-e436-4fe1-a11f-5ef111b1b6b1",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "DELETE",
-            "header": [],
-            "url": {
-              "raw": "{{baseUrl}}/api/avatars/:avatar-id",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "avatars",
-                ":avatar-id"
-              ],
-              "variable": [
-                {
-                  "key": "avatar-id",
-                  "value": "2"
-                }
-              ]
-            }
-          },
-          "response": []
-        },
-        {
           "name": "Get avatar by id Copy",
           "id": "227e3820-561e-4379-963e-4da1a447ec6d",
           "protocolProfileBehavior": {
@@ -492,6 +412,86 @@
               "body": "{\n    \"id\": 1,\n    \"name\": \"user\",\n    \"email\": \"user@user.com\",\n    \"remember\": null\n}"
             }
           ]
+        },
+        {
+          "name": "Get profile picture of current avatar",
+          "id": "f05398e4-98a4-4985-85f3-ba70337dda59",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{baseUrl}}/api/avatars/profile-picture"
+          },
+          "response": []
+        },
+        {
+          "name": "Edit avatar",
+          "id": "6d34c392-bcce-4d63-8fa2-0666c0b8899c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"user3\",\r\n    \"email\": \"user3@user.com\",\r\n    \"password\": \"password\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/avatars/:avatar-id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "avatars",
+                ":avatar-id"
+              ],
+              "variable": [
+                {
+                  "key": "avatar-id",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete avatar",
+          "id": "090d1aab-e436-4fe1-a11f-5ef111b1b6b1",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/avatars/:avatar-id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "avatars",
+                ":avatar-id"
+              ],
+              "variable": [
+                {
+                  "key": "avatar-id",
+                  "value": "2"
+                }
+              ]
+            }
+          },
+          "response": []
         }
       ],
       "id": "e6e2f295-ec06-4dfd-b1b0-5596a4d8fd13",
@@ -2048,7 +2048,7 @@
   ],
   "variable": [
     {
-      "id": "147d97a8-beb6-4ac3-958b-3654e989bdda",
+      "id": "3ea085d0-ccce-42dd-a326-58b5504d8fd6",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
