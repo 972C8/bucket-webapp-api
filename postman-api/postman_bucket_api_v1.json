@@ -1825,109 +1825,6 @@
       "description": "API requests concerning the location where the bucket item takes place (assigned to bucket items)"
     },
     {
-      "name": "user",
-      "item": [
-        {
-          "name": "Register",
-          "id": "94ad78b8-aa26-4d30-91f0-99893fa09424",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"name\": \"user2\",\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": "{{baseUrl}}/user/register"
-          },
-          "response": [
-            {
-              "id": "99a1ea09-8a0e-4bec-bc09-fd08fef77884",
-              "name": "Create avatar",
-              "originalRequest": {
-                "method": "POST",
-                "header": [],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"name\": \"user2\",\r\n    \"email\": \"user2@user.com\",\r\n    \"password\": \"password\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": "{{baseUrl}}/api/avatars"
-              },
-              "status": "Created",
-              "code": 201,
-              "_postman_previewlanguage": "json",
-              "header": [
-                {
-                  "key": "Location",
-                  "value": "http://localhost:8080/api/avatars/5"
-                },
-                {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "1; mode=block"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
-                  "key": "Content-Type",
-                  "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Sat, 08 Jan 2022 15:09:37 GMT"
-                },
-                {
-                  "key": "Keep-Alive",
-                  "value": "timeout=60"
-                },
-                {
-                  "key": "Connection",
-                  "value": "keep-alive"
-                }
-              ],
-              "cookie": [],
-              "responseTime": null,
-              "body": "{\n    \"id\": 5,\n    \"name\": \"user2\",\n    \"email\": \"user2@user.com\",\n    \"remember\": null\n}"
-            }
-          ]
-        }
-      ],
-      "id": "9cc1c7c6-2049-4e57-b187-2eba550deaf4"
-    },
-    {
       "name": "Test connection",
       "id": "1b36492c-5bb5-4d91-b3d5-e55395c03439",
       "protocolProfileBehavior": {
@@ -1973,7 +1870,7 @@
   ],
   "variable": [
     {
-      "id": "4c96af19-7332-43d0-b24a-10a92a3d03dc",
+      "id": "4efcce03-a5ed-4378-a429-006fd350b36d",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
