@@ -1922,7 +1922,7 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "ab3475cb-3357-445b-a96f-fa4e121a0372",
+        "id": "7779cb3b-eedb-4245-b9ac-686aafcca20d",
         "type": "text/javascript",
         "exec": [
           "const token = pm.environment.get('xsrf-token')",
@@ -1939,15 +1939,11 @@
     {
       "listen": "test",
       "script": {
-        "id": "59a87362-4214-41b5-936e-df6c2b742c55",
+        "id": "75f6882f-1fc9-4c19-ad52-f51b894e636a",
         "type": "text/javascript",
         "exec": [
-          "//var xsrfCookie = postman.getResponseCookie(\"XSRF-TOKEN\");",
-          "//pm.environment.set(\"xsrf-token\", xsrfCookie.value);",
-          "",
           "const token = pm.cookies.get('XSRF-TOKEN')",
           "",
-          "console.log(token)",
           "if (token) {",
           "  pm.environment.set(\"xsrf-token\", token)",
           "}"
@@ -1957,7 +1953,7 @@
   ],
   "variable": [
     {
-      "id": "59d8df58-45af-4559-8455-fe4384ba64b6",
+      "id": "03a9739e-c8c4-473b-bc15-4314bcfc7b49",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
