@@ -43,7 +43,13 @@
           },
           "request": {
             "method": "POST",
-            "header": [],
+            "header": [
+              {
+                "key": "X-XSRF-TOKEN",
+                "value": "{{xsrf-token}}",
+                "type": "default"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\r\n  \"email\": \"{{auth_username}}\",\r\n  \"password\": \"{{auth_password}}\"\r\n}",
@@ -1939,7 +1945,7 @@
   ],
   "variable": [
     {
-      "id": "bbdf47a4-850c-47ec-9aaf-5f4cd4dfbfd3",
+      "id": "2a1633c5-e693-4a59-876c-b000a6455251",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
