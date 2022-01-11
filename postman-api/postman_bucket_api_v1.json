@@ -635,6 +635,36 @@
           ]
         },
         {
+          "name": "Get image of bucket item by item id",
+          "id": "8e44db3f-f8e9-4885-ae52-8bb893efd564",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/bucket-items/images/:bucket-item-id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "bucket-items",
+                "images",
+                ":bucket-item-id"
+              ],
+              "variable": [
+                {
+                  "key": "bucket-item-id",
+                  "value": "3"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
           "name": "Edit bucket item",
           "id": "48e0bdd7-3dc9-4a29-b409-4d2a6bbb43ff",
           "protocolProfileBehavior": {
@@ -1053,36 +1083,6 @@
               "body": "{\n    \"id\": 9,\n    \"name\": \"Category 1\",\n    \"color\": \"#FFFFF\",\n    \"icon\": \"apple\"\n}"
             }
           ]
-        },
-        {
-          "name": "Get image of bucket item by item id",
-          "id": "8e44db3f-f8e9-4885-ae52-8bb893efd564",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": "{{baseUrl}}/api/bucket-items/images/:bucket-item-id",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "bucket-items",
-                "images",
-                ":bucket-item-id"
-              ],
-              "variable": [
-                {
-                  "key": "bucket-item-id",
-                  "value": "3"
-                }
-              ]
-            }
-          },
-          "response": []
         },
         {
           "name": "Edit bucket",
@@ -1973,7 +1973,7 @@
   ],
   "variable": [
     {
-      "id": "5f004cdb-8895-4439-9e47-58f912a82e6c",
+      "id": "a5fe77eb-4942-461b-9bfd-7eab9863201b",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
