@@ -1922,7 +1922,7 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "2edd0018-90bb-436f-acfc-b36ae1efb42e",
+        "id": "b9d2de76-2459-48cc-80d2-f14ee5dbf1d5",
         "type": "text/javascript",
         "exec": [
           "const remote = pm.environment.get('remote')",
@@ -1954,7 +1954,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "71d130c4-2eb4-465b-a8cd-1cafd3161ce6",
+        "id": "1511e465-227f-4325-ad2d-1dcb3d02f16c",
         "type": "text/javascript",
         "exec": [
           "const remote = pm.environment.get('remote')",
@@ -1973,7 +1973,7 @@
   ],
   "variable": [
     {
-      "id": "8d1c2760-4b57-403c-8b41-9655f396a1a2",
+      "id": "b96095ca-316c-4287-b154-6c2210da0385",
       "key": "baseUrl",
       "value": "localhost:8080"
     }
